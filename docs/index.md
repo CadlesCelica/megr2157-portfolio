@@ -1,3 +1,6 @@
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: blue;
+}
 # Aidan Cadle MEGR 2157 Sophomore Design
 
 ![MEGR 2156-7 Title](MEGR2156title.png)
