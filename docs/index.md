@@ -1,6 +1,6 @@
 # Aidan Cadle MEGR 2157 Sophomore Design
 
-![MEGR 2156-7 Title](MEGR2156title.png)
+![MEGR 2156-7 Title](MEGR2157title.png)
 
 This portfolio contains various projects completed throughout the course of MEGR 2157, also know as Sophomore Design. Each assignment or project will have its own dedicated sub-page, and links to those pages are found on the homepage. All assignments will have a professional tone, and will showcase the engineering process, focusing on decision making. Projects and assignments will be added as they are completed. Assignments will be held to a professional standard that would be acceptable to hand to a prospective employer. 
 
