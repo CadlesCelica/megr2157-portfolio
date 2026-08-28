@@ -16,9 +16,10 @@
 
 ### Product Analysis
 
-
 ## Decide
+### One of the deliberate changes made to the homepage was to update the banner to more accurately reflect the class I am a part of. Since the template is "one size fits all," the image was modified such that 2156 was replaced with 2157, in order to reflect my registered class. 
 
+Quality Statement
 
 ## Communicate
 
