@@ -1,3 +1,4 @@
+`#000000`
 # A2 – Truss Stress Analysis
 
 ## Objective
