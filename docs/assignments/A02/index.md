@@ -1,7 +1,7 @@
 # A2 – Truss Stress Analysis
 
 ## Objective
-!https://github.com/CadlesCelica/megr2157-portfolio/blob/main/docs/Cadle%20Resume%20'26.docx
+!(https://github.com/CadlesCelica/megr2157-portfolio/blob/main/docs/Cadle%20Resume%20'26.docx)
 
 ## Analyze
 
