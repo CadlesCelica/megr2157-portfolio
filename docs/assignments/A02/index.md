@@ -1,4 +1,3 @@
-`#000000` test test
 # A2 – Truss Stress Analysis
 
 ## Objective
