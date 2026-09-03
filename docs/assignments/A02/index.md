@@ -8,6 +8,7 @@ Mass properties of Part1
 Density = 7800.000 kilograms per cubic meter
 
 Mass = 7.982 kilograms
+https://github.com/CadlesCelica/megr2157-portfolio/blob/36eb82a6b4f23d5e915cc5249703d38fdd211090/docs/assignments/A02/SoDesign%20Truss.SLDPRT
 
 
 ## Analyze
