@@ -1,7 +1,14 @@
 # A2 – Truss Stress Analysis
 
 ## Objective
-![test test](https://github.com/CadlesCelica/megr2157-portfolio/blob/main/docs/Cadle%20Resume%20'26.docx)
+Mass properties of Part1
+     Configuration: Default
+     Coordinate system: -- default --
+
+Density = 7800.000 kilograms per cubic meter
+
+Mass = 7.982 kilograms
+
 
 ## Analyze
 
