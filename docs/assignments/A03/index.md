@@ -8,7 +8,7 @@ Modify parameters within the parametric modelling in order to visualize how the 
 ## Analyze
 ### Parameters
 Before any work on the beam is started, all available parameters must be known and documented. All of my notes are done on a physical pen and pad, so all of my initial notes are present on the document as well. 
-![WrittenWork1](docs/assignments/A03/IMG_E5524.JPG](https://github.com/CadlesCelica/megr2157-portfolio/blob/367541329f579b92a6c75586ac0949853f5dcda6/docs/assignments/A03/IMG_E5524.JPG)
+![WrittenWork1](https://github.com/CadlesCelica/megr2157-portfolio/blob/367541329f579b92a6c75586ac0949853f5dcda6/docs/assignments/A03/IMG_E5524.JPG)
 
 
 ### Part 1, A and B
