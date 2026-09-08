@@ -8,6 +8,7 @@ Modify parameters within the parametric modelling in order to visualize how the 
 ## Analyze
 ### Parameters
 Before any work on the beam is started, all available parameters must be known and documented. All of my notes are done on a physical pen and pad, so all of my initial notes are present on the document as well. 
+![WrittenWork1](docs/assignments/A03/IMG_E5524.JPG)
 
 ### Part 1, A and B
 Now that the parameters are known, the cross sectional area must be determined, and then the hand calculations can begin.
