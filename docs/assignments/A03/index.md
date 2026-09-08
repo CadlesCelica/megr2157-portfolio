@@ -15,12 +15,12 @@ To simplify the area calculations, I decided on a radius of 1 inch for the beam,
 
 Using the axial loading elongation equation, the length was determined to be 534in.
 
-Part 1, C
+### Part 1, C
 In order to parametrically design, equations must be defined within Solidworks.
 
 Substituting in the values, it returns the same beam length as the hand calculations.
 
-Part 2, [Finite Element Analysis]
+### Part 2, [Finite Element Analysis]
 Using the parametrically designed beam and Solidworks' built in SimulationXpress, finite element analysis is conducted on the beam.
 
 First, it generates a von Mises Stress Map
