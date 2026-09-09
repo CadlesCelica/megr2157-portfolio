@@ -21,7 +21,7 @@ Substituting in the values, it returns the same beam length as the hand calculat
 ![WrittenWork FINAL](IMG_5524 cropped.jpg)
 However, there is no aluminum alloy in Solidworks with a Young's Modulus of 8500000 psi, so aluminum 2014-O was chosen, and the calulcations were repeated. Aluminum 2014-O has a Young's Modulus E = 10500000 psi
 Once again, the hand calculations and Solidworks equations agreed, and both returned a beam length of 660in.
-![SW Screenshot 1](docs/assignments/A03/Screenshot 2026-09-09 130407.png)
+![SW Screenshot 1](Screenshot 2026-09-09 130407.png)
 
 ### Part 2, [Finite Element Analysis]
 Using the parametrically designed beam and Solidworks' built in SimulationXpress, finite element analysis is conducted on the beam.
