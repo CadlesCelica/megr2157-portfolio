@@ -19,6 +19,8 @@ In order to parametrically design, equations must be defined within Solidworks.
 
 Substituting in the values, it returns the same beam length as the hand calculations.
 
+![SW calc1](<Screenshot 2026-09-09 131123.png>)
+
 ![WrittenWork FINAL](IMG_5524 cropped.jpg)
 
 However, there is no aluminum alloy in Solidworks with a Young's Modulus of 8500000 psi, so aluminum 2014-O was chosen, and the calulcations were repeated. Aluminum 2014-O has a Young's Modulus E = 10500000 psi
