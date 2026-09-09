@@ -17,9 +17,9 @@ Using the axial loading elongation equation, the length was determined to be 534
 ### Part 1, C
 In order to parametrically design, equations must be defined within Solidworks.
 
-Substituting in the values, it returns the same beam length as the hand calculations.
-
 ![SW calc1](<Screenshot 2026-09-09 131123.png>)
+
+Substituting in the values, it returns the same beam length as the hand calculations.
 
 ![WrittenWork FINAL](IMG_5524 cropped.jpg)
 
