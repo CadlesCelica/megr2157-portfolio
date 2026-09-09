@@ -18,9 +18,12 @@ Using the axial loading elongation equation, the length was determined to be 534
 In order to parametrically design, equations must be defined within Solidworks.
 
 Substituting in the values, it returns the same beam length as the hand calculations.
+
 ![WrittenWork FINAL](IMG_5524 cropped.jpg)
+
 However, there is no aluminum alloy in Solidworks with a Young's Modulus of 8500000 psi, so aluminum 2014-O was chosen, and the calulcations were repeated. Aluminum 2014-O has a Young's Modulus E = 10500000 psi
 Once again, the hand calculations and Solidworks equations agreed, and both returned a beam length of 660in.
+
 ![SW Screenshot 2](Screenshot 2026-09-09 130407.png)
 
 ### Part 2, [Finite Element Analysis]
