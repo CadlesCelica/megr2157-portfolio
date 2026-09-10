@@ -49,9 +49,17 @@ Second, it generates a von Mises Stress Map
 
 This Stress Map notes the peak stress as 158.8 psi, and given that the yield strength of aluminum is given at 40 ksi, or 40,000 psi, the factor of safety is 251.9. Using the material characteristics in Solidworks, the yield strength of aluminum 2014-O is 13780 psi, this returns a factor of safety of 86.8. Either way, the bar will not fail under these conditions.
 
-Using these maps, the peak stress in the beam is lower than the strength of aluminum (Sy = 40ksi), and results in a safety factor of [blank]. 
+### Reflection
+The given axial deflection was 0.009in, and the result from Solidworks was 0.009020 in. Calculation percent difference results in a 0.2% higher axial deflection in the simulated model. 
 
-## Decide
+Given the governing equations for a simple axial loading is intended for this exact situation, it would be surprising if the results did not concur. If this were a more complex loading or scenario, the outcome may be different.
+
+Between the 2, the FEA likely conducts more thorough calculations, and in my opinion, is a more trustworthy source. 
+
+Possible pin hole.
+
+### Modify Parameters
+
 
 
 ## Communicate
