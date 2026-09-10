@@ -37,9 +37,17 @@ To test the bar, it first had to be parametrically designed. A circle was sketch
 Using the parametrically designed beam and Solidworks' built in SimulationXpress, finite element analysis is conducted on the beam.
 
 
-First, it generates a von Mises Stress Map
+First, it generates a deflection map
 
-Second, it generates a deflection map
+![Deflection Map](<Screenshot 2026-09-09 233948.png>)
+
+From this deflection map, the peak strain is noted as 0.00902in, which almost exactly matches the targeted peak strain of 0.009in
+
+Second, it generates a von Mises Stress Map
+
+![Von Mises Stress](<Screenshot 2026-09-09 233820.png>)
+
+This Stress Map notes the peak stress as 158.8 psi, and given that the yield strength of aluminum is given at 40 ksi, or 40,000 psi, the factor of safety is 251.9. Using the material characteristics in Solidworks, the yield strength of aluminum 2014-O is 13780 psi, this returns a factor of safety of 86.8. Either way, the bar will not fail under these conditions.
 
 Using these maps, the peak stress in the beam is lower than the strength of aluminum (Sy = 40ksi), and results in a safety factor of [blank]. 
 
