@@ -60,7 +60,7 @@ Given the governing equations for a simple axial loading is intended for this ex
 
 Between the 2, the FEA likely conducts more thorough calculations, and in my opinion, is a more trustworthy source. 
 
-From the Machinery's Handbook, the stress concentration for a hole in a shaft is between K = 2-3. The working stress can then be calculated as Sw = K*sigma. This results in an approximate stress between 317.6 and 476.4. Even in the case of K = 3, this stress is still significantly lower than the yield strength of 13780 psi given by the material properties, and even still signifcantly lower than the provided yield stress of 40 ksi. 
+From the Machinery's Handbook, the stress concentration for a hole in a shaft is between K = 2-3. The working stress can then be calculated as Sw = K*sigma. This results in an approximate stress between 317.6 and 476.4 psi. Even in the case of K = 3, this stress is still significantly lower than the yield strength of 13780 psi given by the material properties, and even still signifcantly lower than the provided yield stress of 40 ksi. 
 
 ### Modify Parameters
 
