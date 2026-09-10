@@ -28,15 +28,15 @@ Once again, the hand calculations and Solidworks equations agreed, and both retu
 
 ![SW Screenshot 2](Screenshot 2026-09-09 130407.png)
 
-Next, the beam was extruded to the length variable defined in the solidworks equations.
-
-![Extrude Length](<Screenshot 2026-09-10 010150.png>)
-
 ### Part 2, [Finite Element Analysis]
 
 To test the bar, it first had to be parametrically designed. A circle was sketched, and the diameter was set to the diameter variable that was defined in the equations earlier.
 
 ![SW Sketch](Screenshot 2026-09-09 131845.png)
+
+Next, the beam was extruded to the length variable defined in the solidworks equations.
+
+![Extrude Length](<Screenshot 2026-09-10 010150.png>)
 
 Using the parametrically designed beam and Solidworks' built in SimulationXpress, finite element analysis is conducted on the beam.
 
