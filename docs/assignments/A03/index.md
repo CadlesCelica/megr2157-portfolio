@@ -39,18 +39,18 @@ Using the parametrically designed beam and Solidworks' built in SimulationXpress
 
 First, it generates a deflection map
 
-![Deflection Map](<Screenshot 2026-09-09 233948.png>)
+![Deflection Map NEW](<Screenshot 2026-09-10 005250.png>)
 
 From this deflection map, the peak strain is noted as 0.00902in, which almost exactly matches the targeted peak strain of 0.009in
 
 Second, it generates a von Mises Stress Map
 
-![Von Mises Stress](<Screenshot 2026-09-09 233820.png>)
+![Von Mises NEW](<Screenshot 2026-09-10 005020.png>)
 
 This Stress Map notes the peak stress as 158.8 psi, and given that the yield strength of aluminum is given at 40 ksi, or 40,000 psi, the factor of safety is 251.9. Using the material characteristics in Solidworks, the yield strength of aluminum 2014-O is 13780 psi, this returns a factor of safety of 86.8. Either way, the bar will not fail under these conditions.
 
 ### Reflection
-The given axial deflection was 0.009in, and the result from Solidworks was 0.009020 in. Calculation percent difference results in a 0.2% higher axial deflection in the simulated model. 
+The given axial deflection was 0.009in, and the result from Solidworks was 0.009020 in. Calculation of the percent difference results in a 0.2% higher axial deflection in the simulated model. 
 
 Given the governing equations for a simple axial loading is intended for this exact situation, it would be surprising if the results did not concur. If this were a more complex loading or scenario, the outcome may be different.
 
