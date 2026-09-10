@@ -79,4 +79,4 @@ As can be seen, the predicted results align with the results calculated in Solid
 ## Conclusions
 Overall, this project took about 6 hours to complete. 3 hours were spent on the calculations and FEA, while the other 3 were spent on this website. Overall, this was a relatively simple scenario, so there weren't many opportunities for mistakes. 
 
-The CAD files for this assignment can be downloaded [Here test 2](https://github.com/CadlesCelica/megr2157-portfolio/blob/cc04cac263cfc96369199b5f1199dc370e7fbb32/docs/assignments/A03/A3%20SoDesign.SLDPRT)
+The CAD files for this assignment can be downloaded [Here.](https://github.com/CadlesCelica/megr2157-portfolio/blob/cc04cac263cfc96369199b5f1199dc370e7fbb32/docs/assignments/A03/A3%20SoDesign.SLDPRT)
