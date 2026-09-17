@@ -1,7 +1,7 @@
-# A4 – [Topic]
+# A4 – Motor Mount and Technical Drawing
 
 ## Objective
-For this assignment, the students were tasked with a designing a vertical motor mount for an electric motor, constructed of 2 different elements. These two elements are a horizontal cantilever beam on which the motor rests, and a vertical beam that securely attached the motor to the wall. The weight of the motor was not considered in the design.
+For this assignment, the students were tasked with designing a vertical motor mount for an electric motor, constructed of 2 different elements. These two elements are a horizontal cantilever beam on which the motor rests, and a vertical beam that securely attaches the motor to the wall. The weight of the motor was not considered in the design.
 
 ![Writing Page 1](<a4 pg 1.jpg>)
 
@@ -15,7 +15,7 @@ To simplify the analysis, the applied force is treated as an axial load on the f
 
 ![Paper no 2](<a4pg 2.jpg>)
 
-The minimum width, as found from the deflection equation, is 15.4mm. However, to avoid any overhang and to ensure proper mounting area, the miminum width was set to 28mm, equal to that of the electric motor. 
+The minimum width, as found from the deflection equation, is 15.4mm. However, to avoid any overhang and to ensure proper mounting area, the minimum width was set to 28mm, equal to that of the electric motor. 
 
 Since the second feature is solidly mounted with an overhang, the applied force is treated as an induced moment, with F = 300N and r = h = 2.5mm, for a total moment of 0.75 N m. *While editing the portfolio, an error was noticed in one of the formulas. Correcting this results in the final width of feature 2 being 4.54mm instead of the previously calculated 1.86mm*
 
@@ -50,7 +50,7 @@ Using beam bending and deflection equations with the given force of 300N and a c
 
 ![f2 extrude](<f2 extrude.png>)
 
-Assuming the bracket mount holes need to be the same clearance as the motor screw holes, 4 are added with a hole diamater of 3.4mm
+Assuming the bracket mount holes need to be the same clearance as the motor screw holes, 4 are added with a hole diameter of 3.4mm
 
 ![f2 cuts](<f2 cuts.png>)
 
@@ -63,6 +63,7 @@ Assuming the bracket mount holes need to be the same clearance as the motor scre
 The Solidworks part can be found [HERE](<A4 part Cadle.SLDPRT>) and the Drawing can be found [OVER HERE](<A4 part DRAW.SLDDRW>)
 
 Total time: 4 Hours calculations and brainstorming, 4 hours CAD and portfolio for 8 hours total on this project.
+
 
 
 
