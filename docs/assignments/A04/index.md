@@ -15,7 +15,7 @@ To simplify the analysis, the applied force is treated as an axial load on the f
 
 ![Paper no 2](<a4pg 2.jpg>)
 
-The minimum width, as found from the deflection equation, is 15.4mm. However, to avoid any overhang and to ensure proper mounting area, the minimum width was set to 28mm, equal to that of the electric motor. 
+The minimum width, as found from the deflection equation, is 15.4mm. This accounts for both the safety factor, and a hypothetical maximum stress concentration factor of 3. However, to avoid any overhang and to ensure proper mounting area, the minimum width was set to 28mm, equal to that of the electric motor. 
 
 Since the second feature is solidly mounted with an overhang, the applied force is treated as an induced moment, with F = 300N and r = h = 2.5mm, for a total moment of 0.75 N m. *While editing the portfolio, an error was noticed in one of the formulas. Correcting this results in the final width of feature 2 being 4.54mm instead of the previously calculated 1.86mm*
 
@@ -61,6 +61,9 @@ Assuming the bracket mount holes need to be the same clearance as the motor scre
 ## Part and Drawing Links
 
 The Solidworks part can be found [HERE](<A4 part Cadle.SLDPRT>) and the Drawing can be found [OVER HERE](<A4 part DRAW.SLDDRW>)
+
+## Lessons Learned
+My dimensioning on Solidworks is rusty, and needs improvement to reach an adequate level for employers. Additionally, I need to pay close attention in the transformation of equations, as a variable or integer can be easily omitted in a rush. 
 
 Total time: 4 Hours calculations and brainstorming, 4 hours CAD and portfolio for 8 hours total on this project.
 
