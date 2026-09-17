@@ -54,6 +54,15 @@ Assuming the bracket mount holes need to be the same clearance as the motor scre
 
 ![f2 cuts](<f2 cuts.png>)
 
+## Technical Drawing
+
+![Drawing Final](<tech draw final a4.png>)
+
+## Part and Drawing Links
+
+The Solidworks part can be found [HERE](<A4 part Cadle.SLDPRT>) and the Drawing can be found [OVER HERE](<A4 part DRAW.SLDDRW>)
+
+Total time: 4 Hours calculations and brainstorming, 4 hours CAD and portfolio for 8 hours total on this project.
 
 
 
