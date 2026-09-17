@@ -1,6 +1,9 @@
 # A4 – [Topic]
 
 ## Objective
+For this assignment, the students were tasked with a designing a vertical motor mount for an electric motor, constructed of 2 different elements. These two elements are a horizontal cantilever beam on which the motor rests, and a vertical beam that securely attached the motor to the wall. The weight of the motor was not considered in the design.
+
+![Writing Page 1](<a4 pg 1.jpg>)
 
 
 ## Analyze
