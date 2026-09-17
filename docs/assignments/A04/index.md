@@ -36,11 +36,11 @@ To start, a base of 28x28mm was constructed. This was inspired by other motor mo
 
 This works, as the minimum required width of the beam from the calculations is 15.4mm. Additionally, one hole for the shaft is added, with a nominal diameter of 6mm. The screw holes for the motor are then added, with a nominal clearance of 3.4mm
 
-![boss cut](<f1 boss.png>)
+![f1 extrusion](<A4 extrusion.png>)
 
 The first feature is then extruded 4.5mm up from the top plane. This is so that the keyway portion of the motor shaft is exposed, and the solid shaft passes through the beam, and so that the boss of the motor sits flush with the mount. 
 
-![f1 extrusion](<A4 extrusion.png>)
+![boss cut](<f1 boss.png>)
 
 For the second feature, it retains the same width as the first feature, being 28mm. The height is 94.6mm, determined from the maximum possible height of the motor from its tolerances. 
 
