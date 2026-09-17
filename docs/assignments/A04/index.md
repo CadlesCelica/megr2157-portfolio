@@ -9,8 +9,7 @@ While the material listed in the written document is ABS or PLA, the final chose
 
 [PETG Data Sheet](https://devel.lulzbot.com/filament/Rigid_Ink/PETG%20DATA%20SHEET.pdf)
 
-## Analyze
-### Loading
+## Analysis, Loading
 The minimum length of the first feature is 28mm, as that is the maximum width of the electric motor. The minimum height is 2.5mm, found from subtracting the keyway length and boss length from the total length of the shaft. 
 To simplify the analysis, the applied force is treated as an axial load on the first feature, so the axial stress and deflection equations are used to find the minimum width of the base.
 
@@ -18,18 +17,13 @@ To simplify the analysis, the applied force is treated as an axial load on the f
 
 The minimum width, as found from the deflection equation, is 15.4mm. However, to avoid any overhang and to ensure proper mounting area, the miminum width was set to 28mm, equal to that of the electric motor. 
 
-Since the second feature is solidly mounted with an overhang, the applied feature is treated as an induced moment, with F = 300N and r = h = 2.5mm, for a total moment of 0.75 N m. *While editing the portfolio, an error was noticed in one of the formulas. This results in the final width of feature 2 being 4.54mm instead of the previously calculated 1.86mm*
+Since the second feature is solidly mounted with an overhang, the applied force is treated as an induced moment, with F = 300N and r = h = 2.5mm, for a total moment of 0.75 N m. *While editing the portfolio, an error was noticed in one of the formulas. Correcting this results in the final width of feature 2 being 4.54mm instead of the previously calculated 1.86mm*
 
 ![Paper 3](<a4 pg 3.jpg>)
 
 Since the incorrect measurement was used in the construction of the sketch, the second feature retains the original 1.86mm width instead of the corrected width.
 
 ![iso sketch](<a4 pg 4.jpg>)
-
-## Decide
-
-
-## Communicate
 
 ## CAD
 To start, a base of 28x28mm was constructed. This was inspired by other motor mount designs, and leaves no overhang of the motor itself.
