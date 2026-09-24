@@ -35,8 +35,34 @@ This resulted in the final width of feature D being 0.0444in on each side, incre
 
 ### Feature E and Stress Technical Drawings
 
+For feature E, some creativity had to be employed with the stress analysis. The most appropriate and simplified analysis, in my opinion, was to treat it similar to feature A, where it is a cantilever beam with a distributed load. Unlike feature A, the distributed load is the reaction force resulting from contact with the t-beam, and the concentrated support force was the applied force. Similar to feature D, this part is also symmetrical, so analysis was conducted on one side of the feature using half of the total applied force. 
+The width of feature E was constrained by the width of feature B on the t-beam, which was 0.9992 in. The depth was once again equal to the length of feature A, which is 0.75 in. This left the height as the only unknown. 
+Using the appropriate equations for this loading scenario, the minimum height for E was determined to be 0.365 in.
+
 ![comp e and draw](<A5 SoDesignpage0004.jpg>) 
+
+The technical drawings are mostly to scale, as the engineering paper was divided by 0.2 inch grids, simplifying the multi-view drawing. 
+Since the bracket is fully defined by the dimensions on the front and side view, no dimensions were included on the top view. 
+
+## Deflection Analysis of Bracket
+
+All of the deflection analysis uses the same assumptions regarding material, deflection, factor of safety, and loading conditions.
+
+### Feature A and B
+
+Unlike in the stress analysis of A, the length of the bar does impact the resulting deflection, so the length of the bar needs to be minimized. Once again, the minimum length is the width of the strap carrying the load, which is 0.75in. 
+Using deflection, the minimum diameter was determined to be 0.496in, which is narrower than the resulting stress diameter. 
+
+Since all of the analysis regards deflection, the calculated values in this feature will drive the dimensions in the other features. 
+Similar to the stress analysis, the width of B was set to the diameter of A for simplicity, leaving the height and depth unknown. To simplify the equations and minimize deflections, a height of 1 in was selected for feature B.
+
 ![Strain a and B](<A5 SoDesignpage0005.jpg>) 
+
+With those assumptions, the only remaining unknown was the depth of feature B. This was determined to be 0.0425 in using the appropriate deflection equations.
+
+### Feature B and C
+
+
 ![comp c and d deflect](<A5 SoDesignpage0006.jpg>) 
 ![comp e and draw delfect](<A5 SoDesignpage0007.jpg>) 
 ![bracket and analysis](<A5 SoDesignpage0008.jpg>)
