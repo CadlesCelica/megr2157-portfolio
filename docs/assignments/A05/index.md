@@ -1,4 +1,4 @@
-# A5 – [Multi Part analysis]
+# A5 – [Bracket Analysis and Design]
 
 ## Stress analysis of Bracket
 
