@@ -6,7 +6,7 @@ To simplify analysis, a few assumptions were made. The material selected is tita
 
 ### Feature A
 
-For feature A, is was treated as a cantilever bar with a distributed load. The length of the bar is assumed to be the width of the strap that it supports, which is 0.75in. This leaves the diameter of the bar as the only unknown.
+For feature A, it was treated as a cantilever bar with a distributed load. The length of the bar is assumed to be the width of the strap that it supports, which is 0.75in. This leaves the diameter of the bar as the only unknown.
 E = 15,200 ksi, Sy = 120 ksi
 
 ![stress comp a](<A5 SoDesignpage0001.jpg>)
@@ -35,7 +35,7 @@ This resulted in the final width of feature D being 0.0444in on each side, incre
 
 ### Feature E and Stress Technical Drawings
 
-For feature E, some creativity had to be employed with the stress analysis. The most appropriate and simplified analysis, in my opinion, was to treat it similar to feature A, where it is a cantilever beam with a distributed load. Unlike feature A, the distributed load is the reaction force resulting from contact with the t-beam, and the concentrated support force was the applied force. Similar to feature D, this part is also symmetrical, so analysis was conducted on one side of the feature using half of the total applied force. 
+For feature E, some creativity had to be employed with the stress analysis. The most appropriate and simplified analysis, in my opinion, was to treat it similar to feature A, where it is a cantilever beam with a distributed load. Unlike feature A, the distributed load is the reaction force resulting from contact with the t-beam, and the concentrated support force is the applied force. Similar to feature D, this part is also symmetrical, so analysis was conducted on one side of the feature using half of the total applied force. 
 The width of feature E was constrained by the width of feature B on the t-beam, which was 0.9992 in. The depth was once again equal to the length of feature A, which is 0.75 in. This left the height as the only unknown. 
 Using the appropriate equations for this loading scenario, the minimum height for E was determined to be 0.365 in.
 
