@@ -60,9 +60,26 @@ Similar to the stress analysis, the width of B was set to the diameter of A for 
 
 With those assumptions, the only remaining unknown was the depth of feature B. This was determined to be 0.0425 in using the appropriate deflection equations.
 
-### Feature B and C
+### Feature C and D
 
+Since the loading conditions and constraints were already determined in the stress analysis, this simplified the work required for the deflection dimensions.
+The length was constrained by the width of the t-beam, which was 2.496 in, and the depth was the length of feature A, 0.75 in.
+The height was determined to be 0.478 in.
 
-![comp c and d deflect](<A5 SoDesignpage0006.jpg>) 
+![comp c and d deflect](<A5 SoDesignpage0006.jpg>)
+
+For feature D, it was once again symmetrically split, and through a simplified axial loading analysis, the wall width was determined to be 0.0210 in. 
+
+### Feature E and Drawings
+
+The only unknown dimension on feature E was the height, as the depth and width were constrained by feature A and the t-beam, respectively. 
+The height was calculated at 0.383 in.
+
 ![comp e and draw delfect](<A5 SoDesignpage0007.jpg>) 
+
+Similar to the stress bracket, the drawing is mostly to scale due to the grid-lined paper, and the part is fully dimensioned from both calculated and provided values. 
+
+## Follow up and Linkage Analysis
+
+
 ![bracket and analysis](<A5 SoDesignpage0008.jpg>)
