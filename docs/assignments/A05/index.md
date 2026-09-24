@@ -81,5 +81,20 @@ Similar to the stress bracket, the drawing is mostly to scale due to the grid-li
 
 ## Follow up and Linkage Analysis
 
+For comparison, the calculated diameter of feature A was chosen. As is seen in the picture, the stress analysis resulted in a larger diameter, meaning that the part would fall outside of the factor of safety from stress rather than exceeding the maximum deflection at any smaller of a size. 
+The primary error throughout the document was the usage of a factor of safety of 5 instead of the prescribed 4. This resulted in each individual calculation being incorrect, as well as incorrect calculations stacking upon one another. 
+For assumptions, the most likely to be changed is the material selection of titanium. Titanium is stronger than aluminum or steel, so a material change away from titanium would result in larger overall dimensions to account for the extra material required for the same amount of support. The final impact is that the bracket would be both wider and taller.
+
+### Linkage Design
+The material was again selected to be titanium, and the linkage assembly is treated as an axially loaded bar to simplify analysis. The length was decided to be 3 in, measured from the centerpoint of one hole to another, and the width of the hole on the top was chosen to be the larger of the 2 previously calculated diameters, 0.634in. The width was set as the maximum width of the bracket, also determined by stress analysis, resulting in a total width of 2.585 in. Since the bracket is symmetrical down the centerline, the effective width of the thinnest section was determined to 0.7925 in. This left depth as the only remaining unknown.
+Through stress analysis, the depth was calculated as 0.042 in, whereas it was 0.0398 in using the strain analysis. Since the stress analysis resulted in a larger dimension, that is the one that will be chosen for the final linkage feature. 
 
 ![bracket and analysis](<A5 SoDesignpage0008.jpg>)
+
+### Linkage and Feature A Fit
+
+The connection for feature A and the linkage must be a running or sliding fit. From page 651 of the Machinery's Handbook, this was determined to be an RC2 fit. From page 654, the maximum clearance was determined to be 0.00095 in, with a minimum of 0.00025 in. Consulting page 650, this results in a grade 5 standard tolerance. Referencing table 7, again on page 650, the most appropriate and cost effective machining process for this is broaching. 
+
+For the 1 in shaft and the linkage, the fit must be designed for light assembly pressure. The appropriate fit for this is FN1, from page 652, as it is described as light assembly pressure. From table 11 on page 659, the interference of the hole and shaft is between 0.0003 and 0.0012 in. The lowest grade for this fit is grade 8, found from table 6 on page 650, and the most effective machining operations for this fit are reaming and turning. 
+
+Total time for the project ~10 hours. 
