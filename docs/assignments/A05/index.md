@@ -22,11 +22,16 @@ After determining the diameter for part A, I started on the stress analysis for 
 
 Feature B was treated as an axially loaded bar, and the resulting stress analysis resulted in a thickness or depth of 0.1052 in.
 
-### Feature C
+### Feature C and D
 
-Feature C was treated as a simply supported beam with a concentrated load in the center. The width was determined by the minimum measurements outlined by the T-beam, which has a total width of 2.496 in.
+Feature C was treated as a simply supported beam with a concentrated load in the center. The width was determined by the minimum measurements outlined by the T-beam, which has a total width of 2.496 in. The depth was determined by the length of feature A to simplify packaging and analysis, so the depth = 0.75in
 
 ![comp c and d](<A5 SoDesignpage0003.jpg>) 
+
+The cross section was sketched to ensure correct orientation of the section modulus, and the final minimum height was determined to be 0.577in. 
+
+For feature D, the bracket was split symmetrically down the center, and each side was treated as an axially loaded bar with half of the total load applied by the strap. The height was established by feature C in the t-beam, which is 1.499 in, and the length was again determined by the length of feature A on the bracket, which is 0.75 in. 
+This resulted in the final width of feature D being 0.0444in on each side, increasing the total width of the bracket by 0.0888 in.
 
 
 
