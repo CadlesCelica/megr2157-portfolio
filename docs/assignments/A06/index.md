@@ -67,4 +67,4 @@ Tolerancing for part compatibility was fascinating, as many of the tolerances re
 By defining some parts to have a tighter tolerance than others, this directly correlates to the importance of each dimension. The tolerances required for a fit are critical, as they inferface with other parts and must work correctly. Alternatively, less critical measurements, such as overall length, are less important as they do not directly interface with other parts, and are allowed to have a larger overall tolerance. The smaller the tolerance, the more critical the feature is to the intended design of the part.
 
 ## Parts Download
-All of the parts can be found for download [HERE](<SLDW files>)
+All of the parts can be found for download [HERE](https://github.com/CadlesCelica/megr2157-portfolio/blob/edd20f299af98818a4262a3b1203257e8825edcd/docs/assignments/A06/SLDW%20files)
