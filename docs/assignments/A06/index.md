@@ -52,10 +52,10 @@ For the tolerance block, only relevant tolerances are included. This is why ther
 The fit tolerances are seperately called out.
 
 ## Lessons Learned
- ### Part A
+### Part A
  Since the stress equations resulted in larger dimensions throughout the part, they drove the dimensions for each individual feature. For feature A, the equation was expressed in terms of the defined variables applied load, corrected yield strength, and length of the bar, and the cube root was taken to find the diameter. This was the most difficult to define, as Solidworks only has a built in square root function, so some trial and error was experienced to generate the proper output. 
 
- ### Part B
+### Part B
  For feature D, a tighter tolerance was required, as it directly affects one of the surfaces required for the part C fit on the T beam. The tolerance for this part was determined from the appropriate fit found in the Machinery's Handbook. For many of the other parts, the default tolerances were applied. Since not all of these dimensions are critical to the strength of the feature, this will unnecessarily increase cost and time to machine, especially since the selected material is titanium. 
 
 
