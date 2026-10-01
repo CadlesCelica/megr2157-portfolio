@@ -1,13 +1,3 @@
 # A6 – [Topic]
 
-## Objective
-
-
-## Analyze
-
-
-## Decide
-
-
-## Communicate
-
+![test test test](<extrude A.png>) ![test test test](<EQN A.png>) ![test test test](<dim diam A.png>)
