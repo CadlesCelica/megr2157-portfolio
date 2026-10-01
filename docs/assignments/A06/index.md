@@ -7,16 +7,30 @@
 
 ## Feature B
 
+![Eqn B](<Var feat B.png>)
+ ![sketch b](<Sketch B.png>) 
+![extrude B](<Extrude B.png>)
 
 ## Feature C
+
+![eqn C](<Var feat C.png>) 
+![sketch C](<sketch C.png>) 
+![ext C](<extrude C.png>)
 
 
 ## Feature D
 
+![eqn d](<Var D.png>)
+![sketch d](<sketch D.png>) 
+![ext d](<Feat D.png>) 
+![mirror d](<feat d mirror.png>) 
 
 ## Feature E
 
-
+![eqn e](<var E.png>)
+![sketch e](<sketch E.png>) 
+![ext e](<feat E.png>) 
+![mirror e](<feat E mirror.png>) 
 
 ## Lessons Learned
 
