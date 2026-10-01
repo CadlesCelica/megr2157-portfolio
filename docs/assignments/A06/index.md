@@ -32,6 +32,11 @@
 ![ext e](<feat E.png>) 
 ![mirror e](<feat E mirror.png>) 
 
+## Final Part and Drawing
+
+![final part](<part final.png>)
+![final draw](<draw ss edit.png>)
+
 ## Lessons Learned
 
 
