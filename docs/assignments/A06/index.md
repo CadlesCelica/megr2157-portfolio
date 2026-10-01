@@ -1,6 +1,3 @@
-# A6 – [Engineering Drawings and Parametric Modelling]
-## Feature A
-
 Since many of the calculations were completed within A5, most of the work consisted of creating variables and equations to properly parametrically model the bracket.
 
 Many of the universal variables were established in feature A, and were referenced in future features. This includes the yield strength, factor of safety, load on each side of the strap, length of the bar, corrected yield strength, and the equation required to find the diameter. 
@@ -49,7 +46,7 @@ If units of length are not specified, they are all in inches.
 ![final draw](<draw ss edit.png>)
 
 For the tolerance block, only relevant tolerances are included. This is why there is no 0.1in tolerance, angular, or fractional tolerance. 
-The fit tolerances are seperately called out.
+The fit tolerances are separately called out.
 
 ## Lessons Learned
 ### Part A
@@ -75,9 +72,9 @@ Most of the dimensions are driven parametrically, but some are not. These are th
 ### Final Reflections
 Tolerancing for part compatibility was fascinating, as many of the tolerances required for various fit types were a lot tighter than I expected. Before referencing the tables, I assumed tolerances for fits would be in the thousandths of an inch at the smallest, but this was not the case. Many of the fits required tolerances in the ten-thousandths of an inch, leading to overall clearance in the thousandths of an inch. 
 
-By defining some parts to have a tighter tolerance than others, this directly correlates to the importance of each dimension. The tolerances required for a fit are critical, as they inferface with other parts and must work correctly. Alternatively, less critical measurements, such as overall length, are less important as they do not directly interface with other parts, and are allowed to have a larger overall tolerance. The smaller the tolerance, the more critical the feature is to the intended design of the part.
+By defining some parts to have a tighter tolerance than others, this directly correlates to the importance of each dimension. The tolerances required for a fit are critical, as they interface with other parts and must work correctly. Alternatively, less critical measurements, such as overall length, are less important as they do not directly interface with other parts, and are allowed to have a larger overall tolerance. The smaller the tolerance, the more critical the feature is to the intended design of the part.
 
 Overall, this took about 5 hours to complete. Many of the decisions are outlined in A5, which is why not much text is present here. 
 
 ## Parts Download
-All of the parts can be found for download [HERE](https://github.com/CadlesCelica/megr2157-portfolio/blob/edd20f299af98818a4262a3b1203257e8825edcd/docs/assignments/A06/SLDW%20files)
+All of the parts can be found for download
