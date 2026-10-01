@@ -81,4 +81,4 @@ By defining some parts to have a tighter tolerance than others, this directly co
 Overall, this took about 5 hours to complete. Many of the decisions are outlined in A5, which is why not much text is present here. 
 
 ## Parts Download
-All of the parts can be found for download
+All of the parts can be found for download [HERE](https://github.com/CadlesCelica/megr2157-portfolio/blob/ab16ab54914b45733ca831a8832f5678cd4370d5/docs/assignments/A06/SLDW%20files)
