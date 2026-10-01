@@ -61,4 +61,9 @@ The fit tolerances are seperately called out.
 
 ## Link
 
+### Final Reflections
+Tolerancing for part compatibility was fascinating, as many of the tolerances required for various fit types were a lot tighter than I expected. Before referencing the tables, I assumed tolerances for fits would be in the thousandths of an inch at the smallest, but this was not the case. Many of the fits required tolerances in the ten-thousandths of an inch, leading to overall clearance in the thousandths of an inch. 
+
+By defining some parts to have a tighter tolerance than others, this directly correlates to the importance of each dimension. The tolerances required for a fit are critical, as they inferface with other parts and must work correctly. Alternatively, less critical measurements, such as overall length, are less important as they do not directly interface with other parts, and are allowed to have a larger overall tolerance. The smaller the tolerance, the more critical the feature is to the intended design of the part.
+
 ## Parts Download
