@@ -1,3 +1,7 @@
+# A5 – [Parametric CAD and Engineering Drawings]
+
+## Feature A
+
 Since many of the calculations were completed within A5, most of the work consisted of creating variables and equations to properly parametrically model the bracket.
 
 Many of the universal variables were established in feature A, and were referenced in future features. This includes the yield strength, factor of safety, load on each side of the strap, length of the bar, corrected yield strength, and the equation required to find the diameter. 
