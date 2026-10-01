@@ -64,6 +64,11 @@ The fit tolerances are seperately called out.
 ![alt text](<eqn link.png>) 
 ![alt text](<link sketch 1.png>) 
 ![alt text](<link sketch 2.png>) 
+
+
+Again, stress drove overall dimensions, as they resulted in larger results than the deflection equations. 
+Most of the dimensions are driven parametrically, but some are not. These are the less important dimensions, and were more or less arbitrarily chosen to ensure adequate material on all sides of the holes in the link.
+
 ![alt text](<link extrude.png>) 
 ![alt text](<link a6 draw img.png>)
 
@@ -71,6 +76,8 @@ The fit tolerances are seperately called out.
 Tolerancing for part compatibility was fascinating, as many of the tolerances required for various fit types were a lot tighter than I expected. Before referencing the tables, I assumed tolerances for fits would be in the thousandths of an inch at the smallest, but this was not the case. Many of the fits required tolerances in the ten-thousandths of an inch, leading to overall clearance in the thousandths of an inch. 
 
 By defining some parts to have a tighter tolerance than others, this directly correlates to the importance of each dimension. The tolerances required for a fit are critical, as they inferface with other parts and must work correctly. Alternatively, less critical measurements, such as overall length, are less important as they do not directly interface with other parts, and are allowed to have a larger overall tolerance. The smaller the tolerance, the more critical the feature is to the intended design of the part.
+
+Overall, this took about 5 hours to complete. Many of the decisions are outlined in A5, which is why not much text is present here. 
 
 ## Parts Download
 All of the parts can be found for download [HERE](https://github.com/CadlesCelica/megr2157-portfolio/blob/edd20f299af98818a4262a3b1203257e8825edcd/docs/assignments/A06/SLDW%20files)
