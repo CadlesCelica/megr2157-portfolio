@@ -140,6 +140,45 @@ To remove some weight without compromising strength, everything that could be ch
 
 ![change 3 2](<change 3 2.png>)
 
+## FEA loop 3
+### Fixtures and Loading
+![fixtures](<fixture 3.png>)
+The same faces had the same constraints, but the chamfers were left alone. The loading was also the same as the previous 2 fea simulations.
+
+### Run 1
+
+Like the other runs, the mesh started at medium.
+![mesh 1](<mesh 3 1.png>)
+
+![strs 3 1](<stress 3 1.png>)
+
+![disp 3 1](<displacement 3 1.png>)
+
+![fos 3 1](<fos 3 1.png>)
+
+
+### Run 2
+![mesh 2](<mesh 3 2.png>)
+
+![strs 3 2](<stress 3 2.png>)
+
+![disp 3 2](<displacement 3 2.png>)
+
+![fos 3 2](<fos 3 2.png>)
+
+
+
+### Run 3
+![mesh 3](<mesh 3 3.png>)
+
+![strs 3 3](<stress 3 3.png>)
+
+![disp 3 3](<displacement 3 3.png>)
+
+![fos 3 3](<fos 3 3.png>)
+
+
+
 
 
 
