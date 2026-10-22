@@ -288,6 +288,12 @@ The radius of the fillets was increased to 1.25 in.
 
 ![fos 3 2](<ss link/fos 3 2 link.png>)
 
-The deflection differs by 0& at 4 significant digits, while stress and factor of safety differ by 0.09% and 0.1%, respectively.
+The deflection differs by 0% at 4 significant digits, while stress and factor of safety differ by 0.09% and 0.1%, respectively.
 The final mass is 0.14 lbs. 
+
+![table 2](<ss link/Screenshot 2026-10-22 080417.png>)
+
+All in, I spent about 6 hours on this assignment. 
+I did not encounter any issues during the simulations, and all were completed within a similar time frame, except for the unmodified medium fine bracket simulation. That resulted in an error, although the simulation was still completed. It is easy to see how many more hours could be spent optimizing the part, but 3 runs through still provides a sample of iterative design. 
+
 
