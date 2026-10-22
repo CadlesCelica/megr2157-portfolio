@@ -274,5 +274,20 @@ The radius of the fillets was increased to 1.25 in.
 
 ### Run 1
 
+![3 1 stress](<ss link/strs link 3 1.png>)
 
+![3 1 disp](<ss link/disp link 3 1.png>)
+
+![fos 3 1](<ss link/fos 3 1 lnk.png>)
+
+### Run 2
+
+![stress 3 2](<ss link/stress 3 2 link.png>)
+
+![3 2 disp](<ss link/displacement 3 2 link.png>)
+
+![fos 3 2](<ss link/fos 3 2 link.png>)
+
+The deflection differs by 0& at 4 significant digits, while stress and factor of safety differ by 0.09% and 0.1%, respectively.
+The final mass is 0.14 lbs. 
 
