@@ -1,4 +1,9 @@
 # A7 – [FEA on Bracket]
+## The Setup
+
+After constructing the bracket in assignment 5, now it has to be tested.
+To simplify analysis, the interior faces that contact the beam were set as fixed, and the force applied was set as acting purely in the down direction around element A.
+
 
 ## Initial FEA
 Converged after 2 simulations
