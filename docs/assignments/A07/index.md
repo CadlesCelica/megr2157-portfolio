@@ -44,6 +44,7 @@ The minimum factor of safety is 0.32.
 
 Comparing the 2 runs, the results converge within 7%.
 The difference was 5% for stress, 0.6% for deflection, and 3% for the Factor of safety results.
+The mass is 0.34 lbs
 
 As can be seen, this part in its current state failed completely under FEA. This is likely due to treating component B as an axially loaded bar and failing to account for the bending induced by the applied load.
 
@@ -66,10 +67,22 @@ The final modified part
 
 ## FEA loop 2
 
+The same fixed constraints apply as the first loop, and the applied force remains unchanged.
 
+### Run 1
 
+The initial meshing, like the first loop, started at medium density.
 
+![Mesh 2 1](<mesh 2 1.png>)
 
+The simulation was run, and the initial results were more promising than the first attempt. 
+
+![stress 2 1](<stress 2 1.png>)
+The max stress is 
+![disp 2 1](<displacement 2 1.png>)
+The max displacement is 
+![fos 2 1](<fos 2 1.png>)
+The minimum factor of safety is 
 
 Loop 2, modification part 1
 inner loop 1 and 2
