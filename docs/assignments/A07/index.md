@@ -98,15 +98,15 @@ The mesh density was changed to medium fine, and the simulation was re run.
 
 ![stress 2 2](<stress 2 2.png>)
 
-The maximum stress is 
+The maximum stress is 30700 psi
 
 ![disp 2 2](<displacement 2 2.png>)
 
-The maximum displacement is 
+The maximum displacement is 0.00568 in
 
 ![fos 2 2](<fos 2 2.png>)
 
-The minimum factor of safety is 
+The minimum factor of safety is 3.91
 
 While the results are similar, they did not converge within 7%. The stress was within 16.2%, deflection 3.7%, and factor of safety 13.3%.
 Since these differences exceeded 7%, the simulation was run again on the highest density mesh
@@ -118,19 +118,23 @@ Since these differences exceeded 7%, the simulation was run again on the highest
 
 ![stress 2 3](<stress 2 3.png>)
 
-The maximum stress is
+The maximum stress is 31550 psi
 
 ![disp 2 3](<displacement 2 3.png>)
 
-The maximum displacement is 
+The maximum displacement is 0.00573 in
 
 ![fos 2 3](<fos 2 3.png>)
 
-The minumum factor of safety is 
+The minumum factor of safety is 3.8
 
 Between runs 2 and 3, the results did converge. The stress was within 2.7%, displacement 1.9%, and factor of safety 2.6%.
 
 With this knowledge, some material can now be removed without causing the part to fail. 
+
+### Modifications for FEA 3
+
+
 
 
 Loop 2, modification part 1
