@@ -1,4 +1,4 @@
-# A7 – [FEA on Bracket]
+# A7 – [FEA on Bracket and Link]
 ## The Setup
 
 After constructing the bracket in assignment 5, now it has to be tested.
@@ -152,54 +152,61 @@ Like the other runs, the mesh started at medium.
 
 ![strs 3 1](<stress 3 1.png>)
 
+The maximum stress is 25350 psi.
+
 ![disp 3 1](<displacement 3 1.png>)
+
+The maximum deflection is 0.00518 in.
 
 ![fos 3 1](<fos 3 1.png>)
 
+The minimum factor of safety is 4.74. 
+
 
 ### Run 2
+
+This mesh was increased to medium fine density.
+
 ![mesh 2](<mesh 3 2.png>)
 
 ![strs 3 2](<stress 3 2.png>)
 
+The maximum stress is 29980 psi. 
+
 ![disp 3 2](<displacement 3 2.png>)
+
+The maximum deflection is 0.00521 in.
 
 ![fos 3 2](<fos 3 2.png>)
 
+The minimum factor of safety is 4.002. 
+
+Between the first two runs, the values differed by 18% for stress, deflection 0.5%, and safety factor 15%.
+Since these values did not converge within 7%, a 3rd run will be completed. 
 
 
 ### Run 3
+For the final run, the mesh size was set to the finest. 
+
 ![mesh 3](<mesh 3 3.png>)
 
 ![strs 3 3](<stress 3 3.png>)
 
+The maximum stress is 34950 psi. 
+
 ![disp 3 3](<displacement 3 3.png>)
+
+The maximum deflection is 0.00523. 
 
 ![fos 3 3](<fos 3 3.png>)
 
+The minimum factor of safety is 3.43
 
-
-
-
-
-Loop 2, modification part 1
-inner loop 1 and 2
-stress 16.2%, deflection 3.7%, FOS 13.3%
-On the third loop, the results of 2 and 3 converged within 7%,
-Stress 2.7%, displacement 1.9%, safety factor 2.6 %
-
-Loop 3 modifications 2
-Between inner loop 1 and 2
-stress 18%, deflection 0.5%, safety factor 15%
-between 2 and 3
 Final results did not converge, stress differed by 16.5%, deflection by 0.48%, and safety factor by 14.2%
 
+Since there was no convergence, results from the final simulation will be used. 
 
-## Analyze
+The final results from the 3 runs are tabulated here.
+![TABLE](table.png)
 
-
-## Decide
-
-
-## Communicate
-
+## FEA Link
