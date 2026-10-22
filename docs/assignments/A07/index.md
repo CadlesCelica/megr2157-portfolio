@@ -61,6 +61,11 @@ Since many of the other features rely on feature B for geometry, they had to be 
 
 Feature A was also extended to fit the contours of the modified feature B.
 
+The final modified part
+![Part mod 2](<bracket 2 mod real.png>)
+
+## FEA loop 2
+
 
 
 
