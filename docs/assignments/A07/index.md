@@ -3,6 +3,8 @@
 
 After constructing the bracket in assignment 5, now it has to be tested.
 To simplify analysis, the interior faces that contact the beam were set as fixed, and the force applied was set as acting purely in the down direction around element A.
+![fixtures](<FEA  1 1 fixtures.png>)
+![force and direction](<force 2.png>)
 
 
 ## Initial FEA
