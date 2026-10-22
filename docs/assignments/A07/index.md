@@ -36,15 +36,34 @@ For the second simulation, the mesh was adjusted to medium fine.
 ![mesh 1 2 img](<mesh 1 2 img.png>)
 
 ![Stress 1 2](<stress 1 2.png>)
-The maximum stress is 
+The maximum stress is 378,000 psi
 ![Disp 1 2](<displacement 1 2.png>)
-The maximum displacement is 
+The maximum displacement is 0.3663 in
 ![FOS 1 2](<fos 1 2.png>)
 The minimum factor of safety is 0.32.
 
+Comparing the 2 runs, the results converge within 7%.
+The difference was 5% for stress, 0.6% for deflection, and 3% for the Factor of safety results.
 
-Converged after 2 simulations
-Stress within 5%, deflection 0.6%, FOS within 3%
+As can be seen, this part in its current state failed completely under FEA. This is likely due to treating component B as an axially loaded bar and failing to account for the bending induced by the applied load.
+
+### Modifications for FEA 2
+
+The first modification was to increase the thickness of feature B. Since the part had a FOS of 0.32, the depth of the feature was increased by 6x in order to avoid part failure.
+
+![changes 1 1](<changed pt 1.png>)
+
+Since many of the other features rely on feature B for geometry, they had to be modified to a new length.
+
+![changes 1 2](<change pt 1 2.png>)
+
+![Change 1 3](<chane pt 1 3.png>)
+
+Feature A was also extended to fit the contours of the modified feature B.
+
+
+
+
 
 
 Loop 2, modification part 1
