@@ -36,10 +36,13 @@ For the second simulation, the mesh was adjusted to medium fine.
 ![mesh 1 2 img](<mesh 1 2 img.png>)
 
 ![Stress 1 2](<stress 1 2.png>)
+
 The maximum stress is 378,000 psi
 ![Disp 1 2](<displacement 1 2.png>)
+
 The maximum displacement is 0.3663 in
 ![FOS 1 2](<fos 1 2.png>)
+
 The minimum factor of safety is 0.32.
 
 Comparing the 2 runs, the results converge within 7%.
