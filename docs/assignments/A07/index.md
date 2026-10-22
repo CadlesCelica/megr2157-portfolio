@@ -81,11 +81,57 @@ The initial meshing, like the first loop, started at medium density.
 The simulation was run, and the initial results were more promising than the first attempt. 
 
 ![stress 2 1](<stress 2 1.png>)
-The max stress is 
+
+The max stress is 26420 psi
 ![disp 2 1](<displacement 2 1.png>)
-The max displacement is 
+
+The max displacement is 0.00565 in
 ![fos 2 1](<fos 2 1.png>)
+
+The minimum factor of safety is 4.54
+
+### Run 2
+
+The mesh density was changed to medium fine, and the simulation was re run.
+
+![mesh 2 2](<mesh 2 2.png>)
+
+![stress 2 2](<stress 2 2.png>)
+
+The maximum stress is 
+
+![disp 2 2](<displacement 2 2.png>)
+
+The maximum displacement is 
+
+![fos 2 2](<fos 2 2.png>)
+
 The minimum factor of safety is 
+
+While the results are similar, they did not converge within 7%. The stress was within 16.2%, deflection 3.7%, and factor of safety 13.3%.
+Since these differences exceeded 7%, the simulation was run again on the highest density mesh
+
+### Run 3
+![mesh 2 3](<mesh 2 3.png>)
+
+![mesh img 2 3](<mesh 2 3 img.png>)
+
+![stress 2 3](<stress 2 3.png>)
+
+The maximum stress is
+
+![disp 2 3](<displacement 2 3.png>)
+
+The maximum displacement is 
+
+![fos 2 3](<fos 2 3.png>)
+
+The minumum factor of safety is 
+
+Between runs 2 and 3, the results did converge. The stress was within 2.7%, displacement 1.9%, and factor of safety 2.6%.
+
+With this knowledge, some material can now be removed without causing the part to fail. 
+
 
 Loop 2, modification part 1
 inner loop 1 and 2
