@@ -217,8 +217,11 @@ The link was subject to the same loading as the bracket with similar iteration. 
 
 ![link img test](<ss link/mesh 1 1.png>)
 
+![strs link 1](<ss link/stress link 1 1.png>)
 
+![disp link 1](<ss link/disp link 1 1.png>)
 
+![fos link 1](<ss link/FOS 1 1.png>)
 
 
 
