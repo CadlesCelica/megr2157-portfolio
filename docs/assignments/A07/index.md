@@ -35,8 +35,12 @@ For the second simulation, the mesh was adjusted to medium fine.
 ![mesh 1 2](<mesh 1 2.png>)
 ![mesh 1 2 img](<mesh 1 2 img.png>)
 
-
-
+![Stress 1 2](<stress 1 2.png>)
+The maximum stress is 
+![Disp 1 2](<displacement 1 2.png>)
+The maximum displacement is 
+![FOS 1 2](<fos 1 2.png>)
+The minimum factor of safety is 0.32.
 
 
 Converged after 2 simulations
