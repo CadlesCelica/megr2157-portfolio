@@ -126,7 +126,7 @@ The maximum displacement is 0.00573 in
 
 ![fos 2 3](<fos 2 3.png>)
 
-The minumum factor of safety is 3.8
+The minimum factor of safety is 3.8
 
 Between runs 2 and 3, the results did converge. The stress was within 2.7%, displacement 1.9%, and factor of safety 2.6%.
 
@@ -211,7 +211,7 @@ The final results from the 3 runs are tabulated here.
 
 ## FEA Link
 
-The link was subject to the same loading as the bracket with similar iteration. The results always coverged within 1%, so 3 runs were not necessary on the inner loop.
+The link was subject to the same loading as the bracket with similar iteration. The results always converged within 1%, so 3 runs were not necessary on the inner loop.
 
 ## Link Loop 1
 
