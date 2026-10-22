@@ -16,10 +16,24 @@ The initial mesh density was left as the solidworks default, which is about half
 
 After meshing, the FEA simulation was run.
 
-# Run 1
+### Run 1
 ![Stress 1 1](<stress 1 1.png>)
+
+The maximum stress is 359,800 psi
+
 ![disp 1 1](<displacement 1 1.png>)
+(Image should be in inches, but I did not grab the correct screenshot before continuing on)
+The maximum displacement is 0.364 in
+
 ![FOS 1 1](<fos 1 1.png>)
+
+The minimum factor of safety is 0.33
+
+### Run 2
+
+For the second simulation, the mesh was adjusted to medium fine.
+![mesh 1 2](<mesh 1 2.png>)
+![mesh 1 2 img](<mesh 1 2 img.png>)
 
 
 
