@@ -134,6 +134,12 @@ With this knowledge, some material can now be removed without causing the part t
 
 ### Modifications for FEA 3
 
+To remove some weight without compromising strength, everything that could be chamfered was chamfered.
+
+![change 3 1](<change 3 1.png>)
+
+![change 3 2](<change 3 2.png>)
+
 
 
 
