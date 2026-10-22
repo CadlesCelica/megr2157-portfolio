@@ -296,4 +296,4 @@ The final mass is 0.14 lbs.
 All in, I spent about 6 hours on this assignment. 
 I did not encounter any issues during the simulations, and all were completed within a similar time frame, except for the unmodified medium fine bracket simulation. That resulted in an error, although the simulation was still completed. It is easy to see how many more hours could be spent optimizing the part, but 3 runs through still provides a sample of iterative design. 
 
-
+The bracket can be found 
