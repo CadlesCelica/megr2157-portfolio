@@ -210,3 +210,15 @@ The final results from the 3 runs are tabulated here.
 ![TABLE](table.png)
 
 ## FEA Link
+
+The link was subject to the same loading as the bracket with similar iteration. The results always coverged within 1%, so 3 runs were not necessary on the inner loop.
+
+## Link Loop 1
+
+![link img test](<ss link/mesh 1 1.png>)
+
+
+
+
+
+
