@@ -215,6 +215,8 @@ The link was subject to the same loading as the bracket with similar iteration. 
 
 ## Link Loop 1
 
+### Run 1
+
 ![link img test](<ss link/mesh 1 1.png>)
 
 ![strs link 1](<ss link/stress link 1 1.png>)
@@ -222,6 +224,55 @@ The link was subject to the same loading as the bracket with similar iteration. 
 ![disp link 1](<ss link/disp link 1 1.png>)
 
 ![fos link 1](<ss link/FOS 1 1.png>)
+
+### Run 2
+
+![test 2](<ss link/stress link 1 2.png>)
+
+![dis 2](<ss link/disp link 1 2.png>)
+
+![fos 2](<ss link/fos link 1 2.png>)
+
+The stress and factor of safety converge within 0.6%, and the deflection converges within 0.02%.
+The mass is 0.08 lbs
+
+## Loop 2
+
+### Modifications
+
+The thickness of the bracket was doubled, and the corners were filleted to 0.5in radius. 
+![chnge 1](<ss link/Change 1.png>)
+
+![change 1 2](<ss link/change 1 2.png>)
+
+### Run 1
+
+![strs link 23](<ss link/strs link 2 1.png>)
+
+![disp link 2 3](<ss link/disp lnk 2 1.png>)
+
+![fos 2 1](<ss link/fos link 2 1.png>)
+
+### Run 2
+
+![strs 2](<ss link/stress  link 2 2.png>)
+
+![disp 22](<ss link/disp link 2 2.png>)
+
+![fos 22](<ss link/link fos 2 2.png>)
+
+The Stress and Displacement converge without difference to 4 significant figures, while the factor of safety difference is 0.04%.
+The mass is 0.16 lbs
+
+## Loop 3
+
+### Modifications 
+
+The radius of the fillets was increased to 1.25 in.
+
+![change 3](<ss link/change 3 1.png>)
+
+### Run 1
 
 
 
