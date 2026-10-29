@@ -82,8 +82,10 @@ The sketch was then extruded to the wall thickness.
 
 ![lid extrude](<screenshots/lid extrude.png>)
 
+The final seperate parts.
 
-
+![body](<screenshots/gearbox body.png>)
+![lid](<screenshots/gearbox lid.png>)
 
 
 
