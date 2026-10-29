@@ -88,6 +88,18 @@ The final seperate parts.
 ![lid](<screenshots/gearbox lid.png>)
 
 
+## Drawings
+
+Drawings for each shaft, each bearing, each half of the gearbox, and the whole assembly were created
+
+Input shaft
+
+![shaft in](<parts&images/shaft in.JPG>)
+
+Output Shaft
+
+![shaft out](<parts&images/shaft out.JPG>)
+
 
 
 
