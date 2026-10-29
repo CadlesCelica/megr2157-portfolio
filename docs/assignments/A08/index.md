@@ -35,6 +35,61 @@ A rough sketch and parametric calculations for the gearbox are shown.
 
 ## Modelling the Gearbox
 
+### Gearbox Body
+
+A rough sketch, similar to the paper one, was constructed.
+![body sketch](<screenshots/rough sketch.png>)
+
+Equations were defined
+
+![equation body](screenshots/eqns.png)
+ Do note, in this screen shot the wall thickness is defined as 1/8", but the final wall width is 1/4" to accomadate the width of the bearings.
+
+ ![sketch def](<screenshots/sketch defined.png>)
+
+The sketch is defined using the vairables and approriate relations.
+
+![extrude para](<screenshots/extrude parametric.png>)
+
+The sketch is then extruded 1.00 in to accomodate the shaft length.
+
+![shell](<screenshots/shell parametric.png>)
+The part is then "shelled" using the wall width variable.
+
+Now, a new sketch is started to create holes for the bearings. Initially, the holes were dimensioned for the shaft diameter.
+
+![hole bad](<screenshots/hole initial.png>)
+
+However,, upon further review, this was corrected to account for the bearing outer diameter and interference fit, as defined by the McMaster Carr data sheets.
+
+![hole good](<screenshots/hole corrected.png>)
+
+The holes were then cut through the surface of the gear box.
+
+![hole done](<screenshots/hole cut.png>)
+
+### Gearbox Lid
+
+To start, the equations defined in the previous part were imported into this second part to streamline the process. 
+
+![eqn import](<screenshots/eqn import 2.png>)
+
+After this, the sketch was defined using the variables.
+
+![lid sketch](<screenshots/lid sketch.png>)
+
+The sketch was then extruded to the wall thickness.
+
+![lid extrude](<screenshots/lid extrude.png>)
+
+
+
+
+
+
+
+
+
 
 
 test test
