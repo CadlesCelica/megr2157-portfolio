@@ -127,6 +127,5 @@ I learned to use the given equations appropriately, not just blindly plugging in
 
 Overall, this project took around 14 hours to complete. 
 
-The parts, drawings, and other files can be found [HERE](parts&images)
-
+The parts, drawings, and other files can be found [test](https://github.com/CadlesCelica/megr2157-portfolio/blob/d02e14c982f54d8c9d0e1e1021e3e06fdd6e5090/docs/assignments/A08/parts%26images)
 
