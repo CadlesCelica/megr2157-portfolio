@@ -90,7 +90,8 @@ The final seperate parts.
 
 ## Drawings
 
-Drawings for each shaft, each bearing, each half of the gearbox, and the whole assembly were created
+Drawings for each shaft, each bearing, each half of the gearbox, and the whole assembly were created.
+All parts were toleranced for their appropriate fits.
 
 Input shaft
 
@@ -100,11 +101,25 @@ Output Shaft
 
 ![shaft out](<parts&images/shaft out.JPG>)
 
+Input bearing
 
+![bear in](<parts&images/input bearing.JPG>)
 
+Output Bearing
 
+![bear out](<parts&images/output bearing real.JPG>)
 
+Gearbox Housing
 
+![gear house](<parts&images/Gearbox housing img.JPG>)
+
+Gearbox Lid
+
+![gear lid](<parts&images/gearbox lid.JPG>)
+
+Final Assembly
+
+insert here
 
 test test
 ## Decide
