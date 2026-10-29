@@ -1,7 +1,7 @@
 # A8 – Gearbox and Shaft Design
 
 ## Objective
-Using the appropriate equations, determine whether the provided shaft dimensions are adequate to transmit the requireed output torque. Additionally, determine the size of an appropriate bearing, then construct a housing for the entire assembly.
+Using the appropriate equations, determine whether the provided shaft dimensions are adequate to transmit the required output torque. Additionally, determine the size of an appropriate bearing, then construct a housing for the entire assembly.
 
 ## Calculations
 
@@ -43,15 +43,15 @@ A rough sketch, similar to the paper one, was constructed.
 Equations were defined
 
 ![equation body](screenshots/eqns.png)
- Do note, in this screen shot the wall thickness is defined as 1/8", but the final wall width is 1/4" to accomadate the width of the bearings.
+ Do note, in this screen shot the wall thickness is defined as 1/8", but the final wall width is 1/4" to accommodate the width of the bearings.
 
  ![sketch def](<screenshots/sketch defined.png>)
 
-The sketch is defined using the vairables and approriate relations.
+The sketch is defined using the variables and appropriate relations.
 
 ![extrude para](<screenshots/extrude parametric.png>)
 
-The sketch is then extruded 1.00 in to accomodate the shaft length.
+The sketch is then extruded 1.00 in to accommodate the shaft length.
 
 ![shell](<screenshots/shell parametric.png>)
 The part is then "shelled" using the wall width variable.
@@ -60,7 +60,7 @@ Now, a new sketch is started to create holes for the bearings. Initially, the ho
 
 ![hole bad](<screenshots/hole initial.png>)
 
-However,, upon further review, this was corrected to account for the bearing outer diameter and interference fit, as defined by the McMaster Carr data sheets.
+However, upon further review, this was corrected to account for the bearing outer diameter and interference fit, as defined by the McMaster Carr data sheets.
 
 ![hole good](<screenshots/hole corrected.png>)
 
@@ -82,7 +82,7 @@ The sketch was then extruded to the wall thickness.
 
 ![lid extrude](<screenshots/lid extrude.png>)
 
-The final seperate parts.
+The final separate parts.
 
 ![body](<screenshots/gearbox body.png>)
 ![lid](<screenshots/gearbox lid.png>)
@@ -123,7 +123,9 @@ Final Assembly
 
 ## Closing thoughts
 
-I learned to use the given equations appropriately, not just blindly plugging in variables to find a solution. I know that the shaft need to be longer than 1 in to accomodate power transmission in the real world. Additionally, The final design does not include bolt holes, and the lid does not quite interface with the body of the gearbox correctly. Learning about bearing and their caclulations has been fascinating, but I know it just scratches the surface.
+I learned to use the given equations appropriately, not just blindly plugging in variables to find a solution. I know that the shaft needs to be longer than 1 in to accommodate power transmission in the real world. Additionally, The final design does not include bolt holes, and the lid does not quite interface with the body of the gearbox correctly. Learning about bearings and their calculations has been fascinating, but I know it just scratches the surface.
 
 Overall, this project took around 14 hours to complete. 
+
+
 
