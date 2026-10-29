@@ -119,11 +119,11 @@ Gearbox Lid
 
 Final Assembly
 
-insert here
+![assemble final](<parts&images/gear assembly.JPG>)
 
-test test
-## Decide
+## Closing thoughts
 
+I learned to use the given equations appropriately, not just blindly plugging in variables to find a solution. I know that the shaft need to be longer than 1 in to accomodate power transmission in the real world. Additionally, The final design does not include bolt holes, and the lid does not quite interface with the body of the gearbox correctly. Learning about bearing and their caclulations has been fascinating, but I know it just scratches the surface.
 
-## Communicate
+Overall, this project took around 14 hours to complete. 
 
