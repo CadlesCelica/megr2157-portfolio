@@ -127,5 +127,6 @@ I learned to use the given equations appropriately, not just blindly plugging in
 
 Overall, this project took around 14 hours to complete. 
 
+The parts, drawings, and other files can be found [HERE](parts&images)
 
 
