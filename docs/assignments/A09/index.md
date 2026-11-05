@@ -42,11 +42,12 @@ For the frame, the height was set to 3x the shaft diameter, for a total h = 0.56
 
 ![img 4](<A9 Doc_page-0004.jpg>)
 
-Upon further reflection, the part would need to be 3/8 in thick to accomodate the bearing length. The factor of safety was recalculated, and determined to be 943.
+Upon further reflection, the part would need to be 3/8 " thick to accommodate the bearing length. The factor of safety was recalculated, and determined to be 943.
 
 ## Lessons 
 
-I learned that the tension is not constant in a moving belt, is higher on the end entering the pulley, and lower on the end exiting the pulley, relative to the direction of motion. Additionally, I learned that small belts and large o-rings are almost identical.
+I learned that the tension is not constant in a moving belt, it is higher on the end entering the pulley, and lower on the end exiting the pulley, relative to the direction of motion. Additionally, I learned that small belts and large o-rings are almost identical.
 This project took around 4 hours. 
+
 
 
