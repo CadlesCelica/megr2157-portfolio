@@ -32,16 +32,18 @@ The force supported by the bearing is found from the equation F1 + F2 = 2F, wher
 
 Image 3
 
+Using the shaft diameter and belt diameter as the projected area, the P, V, and PV are calculated. Using the calculated values, porous bronze is an appropriate bearing material for this application. 
+
+## Frame
+
+For the frame, the height was set to 3x the shaft diameter, for a total h = 0.5625 in. The depth was initially calculated for the factor of safety, assuming the bar is axially loaded. 
+
+image 4
+
+Upon further reflection, the part would need to be 3/8 in thick to accomodate the bearing length. The factor of safety was recalculated, and determined to be 943.
+
+## Lessons 
 
 
 
-
-
-## Analyze
-
-
-## Decide
-
-
-## Communicate
 
