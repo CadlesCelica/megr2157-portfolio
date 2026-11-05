@@ -15,7 +15,7 @@ The static belt length, inner diameter, is calculated from 2x the center distanc
 For the next step, the stress in the belt must be calculated. 
 From the lecture, the coefficient of static friction between polyurethane rubber and steel is 0.6, so this value was used in the dynamic equation. Combining with the static equations, F1 is determined to be 10.42 lbf, and F2 is 1.58 lbf. From the allowable stress and the larger applied force F1, the diameter is calculated to be 0.29 in. In standard sizes and appropriate lengths, the appropriate belt diameter is 3/8 in. The total outer diameter is calculated to be 20.2 in. This corresponds to part # 3044K608, 20.25 in belt. 
 
-ss of belt listing
+![belt](belt.png)
 
 ## Shaft Calculations
 
@@ -34,7 +34,7 @@ The force supported by the bearing is found from the equation F1 + F2 = 2F, wher
 
 Using the shaft diameter and belt diameter as the projected area, the P, V, and PV are calculated. Using the calculated values, porous bronze is an appropriate bearing material for this application. 
 
-ss of bearing
+![bears](bearing.png)
 
 ## Frame
 
@@ -46,6 +46,7 @@ Upon further reflection, the part would need to be 3/8 in thick to accomodate th
 
 ## Lessons 
 
-
+I learned that the tension is not constant in a moving belt, is higher on the end entering the pulley, and lower on the end exiting the pulley, relative to the direction of motion. Additionally, I learned that small belts and large o-rings are almost identical.
+This project took around 4 hours. 
 
 
