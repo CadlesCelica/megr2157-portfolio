@@ -7,7 +7,7 @@ In building the tensile tester, the crosshead had to be designed with a factor o
 
 ![calc 1](<A10 Scans_page-0001.jpg>)
 
-Initially, the calculations assumed a square cross sectional area. However, this would lead the flange to "stick out" from the crosshead and mount incorrectly, so the calculations were repeated using a square cross sectional area. 
+Initially, the calculations assumed a square cross sectional area. However, this would lead the flange to "stick out" from the crosshead and mount incorrectly, so the calculations were repeated using a rectangular cross sectional area. 
 
 ![calc 2](<A10 Scans_page-0002.jpg>)
 
