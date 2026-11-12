@@ -801,4 +801,4 @@ My main task in this project was to design and parametrically model the specimen
 ## Tabulating Costs - Group Effort, Aidan Formatting
 | Item Number | Quantity | Name | Cost per Item | Total Cost | Link |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | 2 | Toggle Clamp Holding Screw | $7.09 | $14.18 | [link] (https://www.mcmaster.com/5147A28/) | 
+| 1 | 2 | Toggle Clamp Holding Screw | $7.09 | $14.18 | [link](https://www.mcmaster.com/5147A28/) | 
