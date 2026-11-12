@@ -46,9 +46,68 @@ For the FEA, some assumptions were made about the configuration.
 
 The mounting holes for the flange were treated as fixed geometry.
 
-
+![fix 1](<fea files/fea fixtures.png>)
 
 The tensile load was treated as acting down through the specimen mounting hole.
 
+![loading](<fea files/fea loading.png>)
+
 The test was run three times, with the mesh density increasing each time.
 
+For the first run, the mesh was coarse.
+
+![mesh 1](<fea files/mesh 1.png>)
+
+The results for the first run.
+
+![stress 1](<fea files/von mises coarse.png>)
+
+Peak stress is 35MN.
+
+![disp 1](<fea files/displacement coarse.png>)
+
+Peak displacement is 0.03 mm.
+
+![Fos 1](<fea files/fos coarse.png>)
+
+The minimum factor of safety is 1.763.
+
+The mesh size was then increased to medium, between coarse and fine
+
+![mesh 2](<fea files/mesh 2.png>)
+
+Rerunning the study, the displacement converged within 10%, but the factor of safety and peak stress did not.
+
+![disp 2](<fea files/disp mid.png>)
+
+Peak displacement is 0.03124 mm.
+
+![Stress 2](<fea files/von mises mid.png>)
+
+Peak stress is 44.3 MN
+
+![fos 2](<fea files/fos mid.png>)
+
+The minimum factor of safety is 1.461
+
+Since the results did not converge within 10%, the part was re-analyzed. 
+
+The mesh density was increased to fine.
+
+![mesh 3](<fea files/mesh 3.png>)
+
+On this run, the values did converge within 10%, although just barely.
+
+![stress 3](<fea files/stress 3.png>)
+
+Peak stress is 47.1 MN.
+
+![disp 3](<fea files/disp 3.png>)
+
+Peak displacement is 0.03129 mm.
+
+![fos 3](<fea files/fos 3.png>)
+
+The minimum factor of safety is 1.317.
+
+Since the peak stress and resulting factor of safety are not within the allowable range, some changes will be made to improve the characteristics of the crossbar.
