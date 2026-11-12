@@ -120,6 +120,10 @@ Fillets will be added to the holes to reduce the stress concentration, with a ra
 Additionally, a boss will be added for the flange to increase rigidity, with a thickness of 1/4 in.
 Since the initial stress was much higher than expected, the height of the beam was doubled compared to the original calculated value.
 
+Modified beam
+
+![beam](<fea files/part change.png>)
+
 Similar to the first round of FEA, the mesh started at coarse.
 
 The peak stress is 9 MN.
