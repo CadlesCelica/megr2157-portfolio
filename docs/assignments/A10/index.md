@@ -766,77 +766,29 @@ For design inspiration, I researched various tensile testers to understand how t
 
 Examples:
 
+![pic 1](<jack image files/image1.png>)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![pic 2](<jack image files/image2.png>)
 
 ## Specimen Gripper Model
 
-
-
-## Specimen Gripper Model
-
-
-
-
-
-
-
+![pic 3](<jack image files/image3.png>)
 
 Download: https://a360.co/4jaEOpG
 
 ## Assembly Model
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![pic 4](<jack image files/image4.png>)
 
 Download: https://a360.co/4sRWwSe
 
-
+![pic 5](<jack image files/image5.png>)
 
 The parameters used for the assembly were the T-slot stock height (h) and width (w). These parameters were used to simplify the dimensioning of the length of the bars in the frame assembly. 
 
 ## Crosshead Drawing
 
-
+![pic 6](<jack image files/image6.png>)
 
 ## Lessons Learned
 
