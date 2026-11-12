@@ -124,42 +124,43 @@ Similar to the first round of FEA, the mesh started at coarse.
 
 The peak stress is 9 MN.
 
+![stress 1](<fea files/stress 2 1.png>)
 
 The peak displacement is 0.00578 mm.
 
-
+![disp 2 1](<fea files/disp 2 1.png>)
 
 The minimum factor of safety is 6.84
 
-
+![fos 2 1](<fea files/fos 2 1.png>)
 
 The mesh was then increased to medium
 
 The peak stress is 11.5 MN
 
-
+![stress 2 2](<fea files/stress 2 2.png>)
 
 The peak displacement is 0.005813
 
-
+![disp 2 2](<fea files/displacement 2 2.png>)
 
 The minimum factor of safety is 5.398
 
-
+![fos 2 2](<fea files/factor of safety 2 2.png>)
 
 Since these values do not converge, a final run using the fine mesh will be conducted.
 
 The peak stress is 12.3 MN
 
-
+![stress 2 3](<fea files/stress 2 3.png>)
 
 The peak displacement is 0.00582 mm
 
-
+![disp 2 3](<fea files/displacement 2 3.png>)
 
 The minimum factor of safety is 5.039.
 
-
+![fos 2 3](<fea files/fos 2 3.png>)
 
 These values converge within 10%, so the values calculated using the fine mesh will be used. 
 
