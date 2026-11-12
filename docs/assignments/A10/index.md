@@ -802,3 +802,7 @@ My main task in this project was to design and parametrically model the specimen
 | Item Number | Quantity | Name | Cost per Item | Total Cost | Link |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 1 | 2 | Toggle Clamp Holding Screw | $7.09 | $14.18 | [link](https://www.mcmaster.com/5147A28/) | 
+| 2 | 1 | T-Slot Framing System: Rectangle, 40 Series, Smooth, Double, 3 m Nom Lg, 80 mm x 40 mm, 6 Slots, Std | $245.87 | $245.87 | [link](https://www.grainger.com/product/80-20-T-Slot-Framing-System-Rectangle-804T48) | 
+| 3 | 2 | Acme Lead Screw, 1/4 – 20, RH, Steel | $27.96 | $55.92 | [link](https://www.mcmaster.com/99030A984/) | 
+| 4 | 2 | Precision Acme Externally Threaded Nut | $58.86 | $117.72 | [link](https://www.mcmaster.com/95072A171/) |
+
