@@ -808,5 +808,5 @@ My main task in this project was to design and parametrically model the specimen
 | 5 | 2 | Precision Acme Flange Black-Oxide 1117 Carbon Steel, 9/16"-18 Thread Size | $61.78 | $123.56 | [link](https://www.mcmaster.com/1329K101/) |
 | 6 | 8 | 18-8 Stainless Steel Pan Head Phillips Screw, 1/4"-20 Thread, 1/4" Long | $0.18 | $1.44 | [link](https://www.mcmaster.com/91772A533/) |
 | 7 | 1 | 2"x 2"x 1' 6061 Aluminum Billet | $55.83 | $55.83 | [link](https://www.mcmaster.com/9008K53-9008K531/) |
-|  |  |  | Total Cost |   |  |
+|  |  |  | Total Cost | $614.52  |  |
 
