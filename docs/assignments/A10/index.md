@@ -752,4 +752,92 @@ The final mass is 2.56 lbs.
 
 The final, modified cross bar can be found [HERE](crosshead.SLDPRT)
 
-test 2 
+# Specimen Gripping & Parametric Modelling - Jack Brandon
+
+## Objective:
+
+Provide robust specimen gripping, simple calibration provisions (mechanical), and safe, ergonomic operation. 
+
+## Analyze:
+
+I began the design process by visualizing the simplest and most effective way to constrain specimens of different shapes. The idea that came to mind was a c-clamp/vise style mechanism to hold the specimen in place during testing. This mechanism would allow for adjustable clamping location and force for different size and shape specimens as well as ergonomic handles to allow for necessary torque to be applied to the clamp bolts. Furthemore, the gripper needed to be modular so that it could be threaded to the load cell as well as the crosshead to hold the top and bottom of the specimen.
+
+For design inspiration, I researched various tensile testers to understand how the specimen was typically constrained.
+
+Examples:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Specimen Gripper Model
+
+
+
+## Specimen Gripper Model
+
+
+
+
+
+
+
+
+Download: https://a360.co/4jaEOpG
+
+## Assembly Model
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Download: https://a360.co/4sRWwSe
+
+
+
+The parameters used for the assembly were the T-slot stock height (h) and width (w). These parameters were used to simplify the dimensioning of the length of the bars in the frame assembly. 
+
+## Crosshead Drawing
+
+
+
+## Lessons Learned
+
+My main task in this project was to design and parametrically model the specimen gripper and tensile tester assembly. This entailed many hours spent brainstorming, designing, and making adjustments to the gripper sub-assembly and finally the main assembly. The main challenge was mostly with the T-slot stock. It involved the importing of the T-slot stock (which only came in a length of 3 meters), converting it to inches, extrude cutting to a more appropriate length, and figuring out how to copy the new base piece to create new pieces that would be different lengths. This involved some parametric technique in order to ensure the pieces lined up/were the correct length for the frame. I ran into many issues with parts not wanting to move or be constrained after being copied. Luckily I discovered the “copy new” function in Fusion which finally allowed me to do what was needed. Still, aligning and constraining the parts into the final assembly was a difficult process to say the least and it took several iterations to finally get it right. I spent a total of 8 hours doing my task and another hour formatting and compiling the other parts from the other group members into my portfolio. 
