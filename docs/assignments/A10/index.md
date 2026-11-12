@@ -796,3 +796,9 @@ The parameters used for the assembly were the T-slot stock height (h) and width 
 ## Lessons Learned
 
 My main task in this project was to design and parametrically model the specimen gripper and tensile tester assembly. This entailed many hours spent brainstorming, designing, and making adjustments to the gripper sub-assembly and finally the main assembly. The main challenge was mostly with the T-slot stock. It involved the importing of the T-slot stock (which only came in a length of 3 meters), converting it to inches, extrude cutting to a more appropriate length, and figuring out how to copy the new base piece to create new pieces that would be different lengths. This involved some parametric technique in order to ensure the pieces lined up/were the correct length for the frame. I ran into many issues with parts not wanting to move or be constrained after being copied. Luckily I discovered the “copy new” function in Fusion which finally allowed me to do what was needed. Still, aligning and constraining the parts into the final assembly was a difficult process to say the least and it took several iterations to finally get it right. I spent a total of 8 hours doing my task and another hour formatting and compiling the other parts from the other group members into my portfolio. 
+
+
+## Tabulating Costs - Group Effort, Aidan Formatting
+| Item Number | Quantity | Name | Cost per Item | Total Cost | Link |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2 | Toggle Clamp Holding Screw | $7.09 | $14.18 | [link] (https://www.mcmaster.com/5147A28/) | 
