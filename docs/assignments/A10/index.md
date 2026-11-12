@@ -639,7 +639,7 @@ The results for the first run.
 
 ![stress 1](<fea files/von mises coarse.png>)
 
-Peak stress is 35MN.
+Peak stress is 35MPa.
 
 ![disp 1](<fea files/displacement coarse.png>)
 
@@ -661,7 +661,7 @@ Peak displacement is 0.03124 mm.
 
 ![Stress 2](<fea files/von mises mid.png>)
 
-Peak stress is 42.5 MN
+Peak stress is 42.5 MPa
 
 ![fos 2](<fea files/fos mid.png>)
 
@@ -677,7 +677,7 @@ On this run, the values almost converged within 10%, but did not.
 
 ![stress 3](<fea files/stress 3.png>)
 
-Peak stress is 47.1 MN.
+Peak stress is 47.1 MPa.
 
 ![disp 3](<fea files/disp 3.png>)
 
@@ -706,7 +706,7 @@ Modified beam
 
 Similar to the first round of FEA, the mesh started at coarse.
 
-The peak stress is 9 MN.
+The peak stress is 9 MPa.
 
 ![stress 1](<fea files/stress 2 1.png>)
 
@@ -720,7 +720,7 @@ The minimum factor of safety is 6.84
 
 The mesh was then increased to medium
 
-The peak stress is 11.5 MN
+The peak stress is 11.5 MPa
 
 ![stress 2 2](<fea files/stress 2 2.png>)
 
@@ -734,7 +734,7 @@ The minimum factor of safety is 5.398
 
 Since these values do not converge, a final run using the fine mesh will be conducted.
 
-The peak stress is 12.3 MN
+The peak stress is 12.3 MPa
 
 ![stress 2 3](<fea files/stress 2 3.png>)
 
