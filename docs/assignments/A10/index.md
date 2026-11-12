@@ -114,6 +114,11 @@ The minimum factor of safety is 1.317.
 
 Since the peak stress and resulting factor of safety are not within the allowable range, some changes will be made to improve the characteristics of the crossbar.
 
+The maximum stress occured at the inner most mounting hole for the flange, in the direction of the center of the beam. The hole for the specimen gripper also had elevated stress, but that moved out towards the side of the beam. 
+Peak deflection always occured in the middle of the beam near the load. 
+
+The initial mass is 1.24 lbs.
+
 ### Modifications
 
 Fillets will be added to the holes to reduce the stress concentration, with a radius of 1/8 in on all edges.
@@ -170,6 +175,10 @@ These values converge within 10%, so the values calculated using the fine mesh w
 
 Despite the changes, the general locations of the peak stress and displacement did not change.
 The modified part is within the given specifications.
+
+There were no notable changes in stress or displacement patterns. 
+
+The final mass is 2.56 lbs. 
 
 
 
