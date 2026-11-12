@@ -1,3 +1,8 @@
+So that everyone has the same portfolio to submit, it will be condensed here.
+
+
+Not done YET - Aidan
+
 # A10 – Lead Screw Tensile Tester
 # ISAIAH LITTLE: Lead Screw System Design — Tensile Tester 
 
@@ -684,8 +689,8 @@ The minimum factor of safety is 1.317.
 
 Since the peak stress and resulting factor of safety are not within the allowable range, some changes will be made to improve the characteristics of the crossbar.
 
-The maximum stress occured at the inner most mounting hole for the flange, in the direction of the center of the beam. The hole for the specimen gripper also had elevated stress, but that moved out towards the side of the beam. 
-Peak deflection always occured in the middle of the beam near the load. 
+The maximum stress occurred at the inner most mounting hole for the flange, in the direction of the center of the beam. The hole for the specimen gripper also had elevated stress, but that moved out towards the side of the beam. 
+Peak deflection always occurred in the middle of the beam near the load. 
 
 The initial mass is 1.24 lbs.
 
@@ -809,4 +814,5 @@ My main task in this project was to design and parametrically model the specimen
 | 6 | 8 | 18-8 Stainless Steel Pan Head Phillips Screw, 1/4"-20 Thread, 1/4" Long | $0.18 | $1.44 | [link](https://www.mcmaster.com/91772A533/) |
 | 7 | 1 | 2"x 2"x 1' 6061 Aluminum Billet | $55.83 | $55.83 | [link](https://www.mcmaster.com/9008K53-9008K531/) |
 |  |  |  | Total Cost | $614.52  |  |
+
 
