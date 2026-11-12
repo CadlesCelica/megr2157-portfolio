@@ -15,9 +15,9 @@ Calculations were repeated, but now the width of the crosshead was set to 1.6 in
 
 Under the calculations, the rough multi angle sketch, with a top, front, and right view is included. While not specifically labeled, the material of the crosshead is 6061-O Aluminum, as described above. 
 
-
-
 ## Parametric Modelling
 
 ### Crosshead - Aidan Cadle
+
+
 
