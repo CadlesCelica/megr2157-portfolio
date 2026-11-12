@@ -755,11 +755,8 @@ There were no notable changes in stress or displacement patterns.
 
 The final mass is 2.56 lbs. 
  
- ## Lessons Learned - Aidan Cadle
- In completing this assignment, there were many valuable lessons that I began to realize. For one, it is important to trust in your teammates decisions, and know that you can depend on them. This is a drastic change compared to my experience in ENGR 1300, where half of my group failed the class and did not contribute once learning that they could not pass. Additionally, I gained knowledge about additional mkdocs formatting, and realized I had not even scratched the surface of what was possible. Including document formatting, I spent about 9 hours on my portion of the assignment. 
-
-
-The final, modified cross bar can be found [HERE](crosshead.SLDPRT)
+## Lessons Learned - Aidan Cadle
+In completing this assignment, there were many valuable lessons that I began to realize. For one, it is important to trust in your teammates decisions, and know that you can depend on them. This is a drastic change compared to my experience in ENGR 1300, where half of my group failed the class and did not contribute once learning that they could not pass. Additionally, I gained knowledge about additional mkdocs formatting, and realized I had not even scratched the surface of what was possible. In analyzing the beams, I realized that beams should almost always be treated as simply supported, as opposed to fixed. Including document formatting, I spent about 9 hours on my portion of the assignment. 
 
 # Specimen Gripping & Parametric Modelling - Jack Brandon 
 
@@ -816,4 +813,4 @@ My main task in this project was to design and parametrically model the specimen
 | 7 | 1 | 2"x 2"x 1' 6061 Aluminum Billet | $55.83 | $55.83 | [link](https://www.mcmaster.com/9008K53-9008K531/) |
 |  |  |  | Total Cost | $614.52  |  |
 
-
+The final, modified cross bar can be found [HERE](crosshead.SLDPRT)
