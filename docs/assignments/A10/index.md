@@ -1,4 +1,4 @@
-# A10 – Lead Screw Translating System
+# A10 – Lead Screw Tensile Tester
 
 ## Crosshead Design - Aidan Cadle
 
@@ -14,10 +14,29 @@ Initially, the calculations assumed a square cross sectional area. However, this
 Calculations were repeated, but now the width of the crosshead was set to 1.6 in, the outer diameter of the flange. Using the equations for a fixed beam with a load in the center, calculating for both stress and strain, the minimum height of the crosshead was determined to be 0.866 in. 
 
 Under the calculations, the rough multi angle sketch, with a top, front, and right view is included. While not specifically labeled, the material of the crosshead is 6061-O Aluminum, as described above. 
+Holes are included for the lead screws, flange mounting, and specimen mounting solution. 
 
 ## Parametric Modelling
 
 ### Crosshead - Aidan Cadle
 
+For the 3D model, the part was parametrically calculated.
+Variables and equations were defined for every useful value needed within the calculations.
+
+![eqn](eqn.png)
+
+After all of the variables, equations, and metric to imperial conversions were applied, the result matched that of the previously calculated value.
+
+Now, the sketch can be defined using these variables and calculated values.
+
+![sketch](<bar sketch.png>)
+
+The sketch was then extruded out using parametric techniques.
+
+![ext](extrude.png)
+
+The final part, parametrically produced. 
+
+![Part](<part iso.png>)
 
 
