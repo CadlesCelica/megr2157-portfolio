@@ -84,7 +84,7 @@ Peak displacement is 0.03124 mm.
 
 ![Stress 2](<fea files/von mises mid.png>)
 
-Peak stress is 44.3 MN
+Peak stress is 42.5 MN
 
 ![fos 2](<fea files/fos mid.png>)
 
@@ -96,7 +96,7 @@ The mesh density was increased to fine.
 
 ![mesh 3](<fea files/mesh 3.png>)
 
-On this run, the values did converge within 10%, although just barely.
+On this run, the values almost converged within 10%, but did not.
 
 ![stress 3](<fea files/stress 3.png>)
 
@@ -111,3 +111,9 @@ Peak displacement is 0.03129 mm.
 The minimum factor of safety is 1.317.
 
 Since the peak stress and resulting factor of safety are not within the allowable range, some changes will be made to improve the characteristics of the crossbar.
+
+Fillets will be added to the holes to reduce the stress concentration, with a radius of 1/8 in on all edges.
+Additionally, a boss will be added for the flange to increase rigidity, with a thickness of 1/4 in.
+Since the initial stress was much higher than expected, the height of the beam was doubled compared to the original calculated value.
+
+
