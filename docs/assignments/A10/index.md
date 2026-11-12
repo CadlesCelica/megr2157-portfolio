@@ -40,3 +40,13 @@ The final part, parametrically produced.
 ![Part](<part iso.png>)
 
 
+## FEA - Aidan Cadle
+
+For the FEA, some assumptions were made about the configuration.
+
+The mounting holes for the flange were treated as fixed geometry.
+
+The tensile load was treated as acting down through the specimen mounting hole.
+
+The test was run three times, with the mesh density increasing each time.
+
