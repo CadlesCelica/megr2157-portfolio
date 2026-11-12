@@ -575,7 +575,7 @@ The actual crosshead material and thickness still need to be selected. The threa
 12. I distinguished theoretical minimum engagement from a practical design engagement. The preliminary 0.250 in engagement target is more practical than the very short theoretical result from the simplified stripping calculation.
 
 
-## Crosshead Design - Aidan Cadle
+# Crosshead Design - Aidan Cadle
 
 In building the tensile tester, the crosshead had to be designed with a factor of safety of 4, a maximum deflection of 0.1 mm, and support a tensile load of 2 kN. Given the constraints and example of "low cost" testers, the chosen material is 6061-O Aluminum, and the center to center distance between the two lead screw holes is 8 in. 
 6061-O Aluminum has a yield strength of 62.05 MPa, and an elastic modulus E = 69 GPa.
@@ -591,9 +591,9 @@ Calculations were repeated, but now the width of the crosshead was set to 1.6 in
 Under the calculations, the rough multi angle sketch, with a top, front, and right view is included. While not specifically labeled, the material of the crosshead is 6061-O Aluminum, as described above. 
 Holes are included for the lead screws, flange mounting, and specimen mounting solution. 
 
-## Parametric Modelling
+# Parametric Modelling
 
-### Crosshead - Aidan Cadle
+## Crosshead - Aidan Cadle
 
 For the 3D model, the part was parametrically calculated.
 Variables and equations were defined for every useful value needed within the calculations.
@@ -615,9 +615,9 @@ The final part, parametrically produced.
 ![Part](<part iso.png>)
 
 
-## FEA - Aidan Cadle
+# FEA - Aidan Cadle
 
-### Initial Part
+## Initial Part
 
 For the FEA, some assumptions were made about the configuration.
 
@@ -694,7 +694,7 @@ Peak deflection always occurred in the middle of the beam near the load.
 
 The initial mass is 1.24 lbs.
 
-### Modifications
+## Modifications
 
 Fillets will be added to the holes to reduce the stress concentration, with a radius of 1/8 in on all edges.
 Additionally, a boss will be added for the flange to increase rigidity, with a thickness of 1/4 in.
@@ -756,11 +756,12 @@ There were no notable changes in stress or displacement patterns.
 The final mass is 2.56 lbs. 
  
  ## Lessons Learned - Aidan Cadle
+ In completing this assignment, there were many valuable lessons that I began to realize. For one, it is important to trust in your teammates decisions, and know that you can depend on them. This is a drastic change compared to my experience in ENGR 1300, where half of my group failed the class and did not contribute once learning that they could not pass. Additionally, I gained knowledge about additional mkdocs formatting, and realized I had not even scratched the surface of what was possible. Including document formatting, I spent about 9 hours on my portion of the assignment. 
 
 
 The final, modified cross bar can be found [HERE](crosshead.SLDPRT)
 
-# Specimen Gripping & Parametric Modelling - Jack Brandon
+# Specimen Gripping & Parametric Modelling - Jack Brandon 
 
 ## Objective:
 
@@ -798,7 +799,7 @@ The parameters used for the assembly were the T-slot stock height (h) and width 
 
 ![pic 6](<jack image files/image5.png>)
 
-## Lessons Learned
+## Lessons Learned -  Jack Brandon
 
 My main task in this project was to design and parametrically model the specimen gripper and tensile tester assembly. This entailed many hours spent brainstorming, designing, and making adjustments to the gripper sub-assembly and finally the main assembly. The main challenge was mostly with the T-slot stock. It involved the importing of the T-slot stock (which only came in a length of 3 meters), converting it to inches, extrude cutting to a more appropriate length, and figuring out how to copy the new base piece to create new pieces that would be different lengths. This involved some parametric technique in order to ensure the pieces lined up/were the correct length for the frame. I ran into many issues with parts not wanting to move or be constrained after being copied. Luckily I discovered the “copy new” function in Fusion which finally allowed me to do what was needed. Still, aligning and constraining the parts into the final assembly was a difficult process to say the least and it took several iterations to finally get it right. I spent a total of 8 hours doing my task and another hour formatting and compiling the other parts from the other group members into my portfolio. 
 
