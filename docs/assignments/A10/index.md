@@ -42,6 +42,8 @@ The final part, parametrically produced.
 
 ## FEA - Aidan Cadle
 
+### Initial Part
+
 For the FEA, some assumptions were made about the configuration.
 
 The mounting holes for the flange were treated as fixed geometry.
@@ -112,8 +114,57 @@ The minimum factor of safety is 1.317.
 
 Since the peak stress and resulting factor of safety are not within the allowable range, some changes will be made to improve the characteristics of the crossbar.
 
+### Modifications
+
 Fillets will be added to the holes to reduce the stress concentration, with a radius of 1/8 in on all edges.
 Additionally, a boss will be added for the flange to increase rigidity, with a thickness of 1/4 in.
 Since the initial stress was much higher than expected, the height of the beam was doubled compared to the original calculated value.
+
+Similar to the first round of FEA, the mesh started at coarse.
+
+The peak stress is 9 MN.
+
+
+The peak displacement is 0.00578 mm.
+
+
+
+The minimum factor of safety is 6.84
+
+
+
+The mesh was then increased to medium
+
+The peak stress is 11.5 MN
+
+
+
+The peak displacement is 0.005813
+
+
+
+The minimum factor of safety is 5.398
+
+
+
+Since these values do not converge, a final run using the fine mesh will be conducted.
+
+The peak stress is 12.3 MN
+
+
+
+The peak displacement is 0.00582 mm
+
+
+
+The minimum factor of safety is 5.039.
+
+
+
+These values converge within 10%, so the values calculated using the fine mesh will be used. 
+
+Despite the changes, the general locations of the peak stress and displacement did not change.
+The modified part is within the given specifications.
+
 
 
