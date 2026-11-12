@@ -1,8 +1,3 @@
-So that everyone has the same portfolio to submit, it will be condensed here.
-
-
-Not done YET - Aidan
-
 # A10 – Lead Screw Translating System
 
 # ISAIAH LITTLE: Lead Screw System Design — Tensile Tester 
