@@ -750,5 +750,5 @@ There were no notable changes in stress or displacement patterns.
 
 The final mass is 2.56 lbs. 
 
-
+The final, modified cross bar can be found [HERE](crosshead.SLDPRT)
 
