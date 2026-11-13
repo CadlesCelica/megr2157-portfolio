@@ -1,6 +1,7 @@
 # A11 – Motor Selection
 
 ## Objective
+<img width="179" height="137" alt="image" src="https://github.com/user-attachments/assets/daf9c05f-f1dc-4d5c-8e98-f68c2260a03e" />
 
 
 ## Analyze
