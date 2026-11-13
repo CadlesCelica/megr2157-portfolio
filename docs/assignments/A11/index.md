@@ -1,3 +1,4 @@
+<img width="389" height="278" alt="Screenshot 2026-11-12 104448" src="https://github.com/user-attachments/assets/1417f86b-4050-4c62-b122-f75778150f57" />
 # A11 – Motor Selection
 
 ## Objective
