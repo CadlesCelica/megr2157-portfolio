@@ -6,6 +6,7 @@
 
 
 ## Analyze
+[bracket download](<A11 Motor Bracket1.SLDPRT>)
 
 
 ## Decide
