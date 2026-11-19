@@ -147,6 +147,51 @@ Although the factor of safety is not 4, the beam itself appears to be adequate t
 
 For refinements, the frame may not need double wide framing, and that would drastically cut down on both weight and material cost. 
 
+The beam was loaded and fixed in the same manner as the previous beam.
+
+Initially, the part was meshed at a coarse setting. However, after many failed attempts, the mesh size was increased to medium, and the mesh quality was reduced to draft, at which point it successfully meshed.
+
+The results were similar to the previous test, although stress distribution changed.
+
+<img width="639" height="1013" alt="stress 5 1" src="https://github.com/user-attachments/assets/5e447413-988d-4f29-8070-90a996c966a0" />
+
+Stress. Peak 96 MPa
+
+<img width="622" height="708" alt="disp 5 1" src="https://github.com/user-attachments/assets/2f094ea5-48aa-439a-a673-2190e47da90e" />
+
+Displacement. Peak 0.32 mm
+
+<img width="632" height="667" alt="fos 5 1" src="https://github.com/user-attachments/assets/94df4ca8-b507-4d71-8b33-77763e345843" />
+
+Factor of Safety. Minimum 2.88
+
+Initially, these appear to be better results than the unrefined pass, and save almost 50% of the weight. However, to verify the results, the mesh must be refined, and the analysis re-ran. 
+
+The mesh size was then increased to medium fine (~75% towards fine on the slider).
+
+<img width="1554" height="923" alt="stress 5 2" src="https://github.com/user-attachments/assets/322f5f2d-7ad8-41a0-9960-7bc06a319fef" />
+
+Stress. Peak 104 MPa
+
+<img width="1441" height="831" alt="disp 5 2" src="https://github.com/user-attachments/assets/c5da71db-6295-4022-a340-56acc913c987" />
+
+Displacement. Peak 0.32 mm
+
+<img width="1578" height="810" alt="fos 5 2" src="https://github.com/user-attachments/assets/f8b5d464-494a-4b2f-bfd0-3d7c79303b5f" />
+
+Factor of Safety, Minimum 2.66
+
+These results converge within 10%, with a maximum difference of 8.3%. The results of the finer mesh are used for analysis.
+
+Since the results converge, conclusions can be drawn regarding the proposed change. While stress remains high around the leadscrew clearance hole, the stress has increased near the ends of the beam, showing how the stress distribution has changed. The displacement and factor of safety plots do not show a significant change in the distribution. Overall, the single wide frame appears to be a better solution for this application, although it would require a redesign of the motor mount. 
+
+
+
+
+
+
+
+
 
 
 
