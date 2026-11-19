@@ -1,17 +1,23 @@
 
 # A11 – Motor Selection
+## T Slot Connectors - Aidan Cadle
 
-## Objective
+In designing the frame, the top must be rigid enough to support the moment induced by the motors.
+The material of the bracket candidate, the 90 degree flush L bracket, is listed on Mcmaster as 6063 T6 Aluminum, which has a yield strength of 214 MPA, or 214 N/mm^2.
+The moment induced from each motor is known, with a stall torque of 2931 in-ozf, which converted into metric, is 20.7 N*m per motor.
+The interior width of the frame is 12in, add the column width, and the total length of the beam is known, at 15.15 in. Solving for the distance between the leadscrew hole and the face of the bar, the distance is 3.575 in, or 90.8mm.
+Since the beam is symmetric about the center, one side of the beam will be analyzed to simplify the analysis.
+Summing moments around the leadscrew hole, and treating the resultant reaction force as a single-point force at the furthest edge of beam, a force acting on the bracket can be calculated. 
 
+<img width="3929" height="4936" alt="A11 Work_page-0001" src="https://github.com/user-attachments/assets/770edb44-83c4-4f91-b499-37472d371e48" />
 
-## Analyze
-[bracket download](<A11 Motor Bracket1.SLDPRT>)
+The bracket is treated as a beam that is fixed on one end, and loaded at the other. Since the first mounting point on the bracket is 20mm away from the edge of the bracket, this is treated as the effective beam length. 
+The width of the bracket is doubled, as there is one bracket on each side of the column. 
+Using the appropriate equation for stress and section modulus, as found in the Machinery's Handbook, the maximum bending stress is determined to be 4.87 MPa.
+Since this is significantly lower than the yield strength of the material, 2 L brackets are more than adequate to support the top of the frame. 
 
+The link for the bracket can be found [here](https://www.mcmaster.com/3136N924/)
 
-## Decide
-_Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
-
-## Communicate
 
 ## Frame FEA - Aidan Cadle
 
@@ -185,6 +191,8 @@ These results converge within 10%, with a maximum difference of 8.3%. The result
 
 Since the results converge, conclusions can be drawn regarding the proposed change. While stress remains high around the leadscrew clearance hole, the stress has increased near the ends of the beam, showing how the stress distribution has changed. The displacement and factor of safety plots do not show a significant change in the distribution. Overall, the single wide frame appears to be a better solution for this application, although it would require a redesign of the motor mount. 
 
+## Lessons Learned - Aidan Cadle
+I learned that using Solidworks for assembly analysis is not ideal, and that I need more information about assemblies in order to adequately use the function. Additionally, I was able to find 'bandaid' workarounds, showcasing the problem solving required of engineers at any given moment. This portion of the assignment took around 6 hours.
 
 
 
