@@ -832,6 +832,133 @@ Since the results converge, conclusions can be drawn regarding the proposed chan
 ## Lessons Learned - Aidan Cadle
 I learned that using Solidworks for assembly analysis is not ideal, and that I need more information about assemblies in order to adequately use the function. Additionally, I was able to find 'bandaid' workarounds, showcasing the problem solving required of engineers at any given moment. This portion of the assignment took around 6 hours.
 
+# FEA of Vertical Components of Frame, Floating Bearing Mount Design, CAD Assembly, Drawings - Jack Brandon
+
+## FEA of Vertical Components of Frame
+
+The first task I had was to run an FEA simulation on the frame by applying the transverse and axial loads to the motor mounts. In order to prepare the assembly for this evaluation, I first checked that all of the components were properly aligned and constrained in the design. Moving to the simulation, I did the same by using the "automatic contacts" function in Fusion which ensured that all of the components were constrained to each other via the L-brackets.
+
+**Model Setup**
+
+<img width="1305" height="683" alt="Screenshot 2026-11-18 182433" src="https://github.com/user-attachments/assets/0c59dd41-489e-4fea-90ba-4861e1c36793" />
+
+Here, I applied the fixed constraints to the "feet" of the tester to ensure it was on a stable base.
+
+<img width="1242" height="516" alt="Screenshot 2026-11-18 182810" src="https://github.com/user-attachments/assets/050fab5a-a315-4408-8881-9357c689b8ee" />
+
+The 1000 N compressive axial loads (2 kN total)  and 20.7 N-M torque/moments were applied to the individual motor mounts. 
+
+<img width="547" height="776" alt="Screenshot 2026-11-18 182905" src="https://github.com/user-attachments/assets/beeb3965-f14b-42ca-beb3-ebf7d620650c" />
+
+All four of the independent loads applied to the two motor mounts.
+
+**Meshing and Verification 1**
+
+<img width="1025" height="511" alt="Screenshot 2026-11-18 205548" src="https://github.com/user-attachments/assets/ee9f9741-2d8b-4f87-aa45-e3d5dea9b274" />
+
+The mesh size selected for the first pass was the maximum (10%).
+
+<img width="1917" height="910" alt="Screenshot 2026-11-18 201819" src="https://github.com/user-attachments/assets/936db4fd-80de-4515-be99-6802784c7c22" />
+
+<img width="1917" height="887" alt="Screenshot 2026-11-18 202031" src="https://github.com/user-attachments/assets/72cf205a-8959-459f-8c1c-4fc26dde7560" />
+
+<img width="1917" height="888" alt="Screenshot 2026-11-18 202337" src="https://github.com/user-attachments/assets/c5d43682-f177-4102-9d22-40078bda051e" />
+
+**Meshing and Verification 2**
+
+<img width="1027" height="510" alt="Screenshot 2026-11-18 205457" src="https://github.com/user-attachments/assets/31cb88a4-8223-4652-abf8-b05f275c8489" />
+
+The next pass was performed with a medium (~6%) mesh size.
+
+<img width="1917" height="890" alt="Screenshot 2026-11-18 204726" src="https://github.com/user-attachments/assets/bb7acacc-745b-4840-b976-7b2078eb7f6a" />
+
+<img width="1917" height="946" alt="Screenshot 2026-11-18 204756" src="https://github.com/user-attachments/assets/af5fdc88-8a58-4daf-b238-d305275eccd3" />
+
+<img width="1917" height="917" alt="Screenshot 2026-11-18 204827" src="https://github.com/user-attachments/assets/893e549f-d1c5-4d8e-9cc7-b8a7bc44ff2f" />
+
+**Meshing and Verification 3**
+
+<img width="1030" height="512" alt="Screenshot 2026-11-18 220331" src="https://github.com/user-attachments/assets/d8f23c09-456d-4b7f-b905-b0f68ff62d9f" />
+
+Finally, the last pass was performed with the finest mesh (1%).
+
+<img width="1917" height="917" alt="Screenshot 2026-11-18 215853" src="https://github.com/user-attachments/assets/8da3843b-9ee1-43e3-9455-8bbf6382ddcb" />
+
+<img width="1917" height="945" alt="Screenshot 2026-11-18 215930" src="https://github.com/user-attachments/assets/1ca854a8-a12d-4f1d-b9f2-28759349635d" />
+
+<img width="1917" height="943" alt="Screenshot 2026-11-18 215942" src="https://github.com/user-attachments/assets/d565b849-7006-4a21-9fed-57ea83fa28bf" />
+
+**Results**
+
+| Iteration | Mesh Size | Max Von Mises Stress & Location | Max Vertical Deflection at Grip Line | Factor of Safety |
+|---|---|---|---|---|
+| 1 | Coarse | 12.5 MPa (top and bottom of columns and center of top horizontal beam) | 0.001 mm | 31.9 |
+| 2 | Medium | 10.8 MPa (same locations) | 0.001 mm | 32.6 |
+| 3 | Fine | 15.3 MPa (same locations) | 0.001 mm | 13.6 |
+
+As can be seen from the table, the results never converged to a 2% difference for the von mises stress (14% difference between coarse and medium) and so the fine mesh was used.
+
+**Optimization Pass**
+
+<img width="566" height="682" alt="Screenshot 2026-11-18 224333" src="https://github.com/user-attachments/assets/82f771c0-840d-4f6e-b394-7cc1d8f953f4" />
+
+Although the columns were already well above the required safety factor of 4, I wanted to see how much stronger they and the frame could be made. In order to do this I added plates to the front and back of the columns to increase their rigidity. These in effect increased the cross sectional area of the columns, therefore increasing their stiffness.
+
+<img width="1917" height="945" alt="Screenshot 2026-11-18 230428" src="https://github.com/user-attachments/assets/fec7fa57-21b3-4d73-8c50-867a1e54c57a" />
+
+<img width="1917" height="946" alt="Screenshot 2026-11-18 230454" src="https://github.com/user-attachments/assets/d518eead-932e-4ea9-9c55-252ca959cb95" />
+
+<img width="1917" height="912" alt="Screenshot 2026-11-18 230511" src="https://github.com/user-attachments/assets/dec81d0d-51a7-468a-8378-6dbc7748baac" />
+
+| Iteration | Mesh Size | Max Von Mises Stress & Location | Max Vertical Deflection at Grip Line | Factor of Safety |
+|---|---|---|---|---|
+| Optimization | Fine | 14.9 MPa (top and bottom of columns and center of top horizontal beam) | 0.001 mm | 13.9 |
+
+As can be seen from the table above, the optimization performed as expected. The maximum stress decreased slightly from 15.3 to 14.9 MPa. The factor of safety increased from 13.6 to 13.9 and the maximum z displacement stayed the same. Overall, the optimization would likely not be worth it due to the increase in mass and cost for a marginal increase in strength.
+
+## Floating Bearing Mount Design
+
+The second task I had was to design the floating bearing mount. For this, I figured that at the very least a plate would be necessary a bearing system to be attached to the T-slot. I considered adding supplier bearings but since that was not detailed in the instructions for the assignment, I simply made the plate with the appropriate RC3 class fit for the lead screw and correct size/spacing for the bolts.
+
+<img width="783" height="618" alt="Screenshot 2026-11-17 183607" src="https://github.com/user-attachments/assets/094c22cb-5b23-4dc9-8f89-0d67d34cbd01" />
+
+The sketch for the bearing mount. The lead screw hole dimension is such that there is a 0.001" total clearance between the screw and hole, given the 1/4" nominal lead screw diameter. This falls within the standard specifications of an RC3 fit. Also, worth mentioning, is that the actual size of the lead screw can and likely will vary slightly, is a threaded surface, and needs to be able to rotate freely, so the hole was made larger to account for these factors. Typically, the dimensions would be between 0.2491 - 0.2495" and 0.25 - 0.2506" for the shaft and hole diameters respectively.
+
+The holes for the 1/4-20 screws to be used to fasten the plate were sized 0.266" as per the recommendation for a clearance hole.
+
+<img width="822" height="562" alt="Screenshot 2026-11-17 195318" src="https://github.com/user-attachments/assets/3c87c278-ba4c-492c-af16-17895049f382" />
+
+Next, the sketch profile was extruded to 0.5". This height was chosen to provide strength to the bearing mount without causing potential unnecessary friction between the hole and lead screw in the case that the two touch while the tester is running.
+
+<img width="668" height="480" alt="Screenshot 2026-11-18 093328" src="https://github.com/user-attachments/assets/960f19b4-74ea-4d1b-9ec6-0105b3ab1bd2" />
+
+The completed bearing mount.
+
+<img width="596" height="687" alt="Screenshot 2026-11-18 174211" src="https://github.com/user-attachments/assets/22d2c399-5a86-4192-b782-0c85d2260757" />
+
+The bearing mounts installed on the top and bottom of the tensile tester assembly.
+
+**CAD File Downloads**
+
+Frame Only: https://a360.co/4A5ueqb
+
+Full Assembly: https://a360.co/4sRWwSe
+
+## Lessons Learned
+
+This project revealed two crucial aspects of a team engineering effort. First, was the importance of communication. Due to the way that our team's tasks were divided, some of us had overlapping tasks. For example, Aidan and I were both doing our own FEA on two separate parts of the frame. Because of this, we each arrived at different bracket solutions in order to complete the assembly and prepare it for verification. I later realized that we had different brackets (Grainger vs McMaster Carr) being used to connect the top horizontal beam to the vertical columns. This caused a delay in getting the FEA verifications completed as one of our assemblies had to be changed to maintain consistent brackets. Second, another issue occurred when the tester assembly file was not shared early enough in the process. This created issues with the motor mount and coupling designs. Once the file was shared, the designs were updated accordingly. The lesson was that these problems could have been avoided if communication was taken more seriously by myself.
+
+Second, this project highlighted the importance of critical thinking when running an FEA. In this instance, the supplied brackets came with mounting hardware (bolts and t-slot parts) which created many extra small components in the frame. When it came time to run the first FEA simulation, the mesh failed. It took some time to figure out why but after going through the error messages, it became clear that the assembly was not constrained and there were too many complex surfaces for the mesh. These two issues were solved by using the automatic contacts function to fix all the components together as an assembly as designed and by removing the unnecessary hardware from the L-brackets. Finally the mesh was able to be produced and the FEA could be run.
+
+## Drawings
+
+<img width="1115" height="722" alt="Screenshot 2026-11-18 114536" src="https://github.com/user-attachments/assets/63657c34-4b15-459c-8172-d8a49d167427" />
+
+<img width="940" height="610" alt="Screenshot 2026-11-18 232600" src="https://github.com/user-attachments/assets/1e8ac8c8-b1a0-4a4c-a998-798a18da9e7a" />
+
+<img width="1120" height="728" alt="Screenshot 2026-11-18 233740" src="https://github.com/user-attachments/assets/f6d7684f-a023-410c-878e-e484b8c71ca3" />
+
+
 ## Tabulating Costs - Group Effort, Aidan Formatting
 | Item Number | Quantity | Name | Cost per Item | Total Cost | Link |
 |:---:|:---:|:---:|:---:|:---:|:---:|
