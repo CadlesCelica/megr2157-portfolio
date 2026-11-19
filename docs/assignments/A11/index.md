@@ -21,7 +21,7 @@ In an attempt to accurately conduct the FEA, the column brackets were mated to a
 
 <img width="1513" height="1007" alt="initial model" src="https://github.com/user-attachments/assets/35e8d7fb-5593-4589-a701-0d44ed5259f7" />
 
-The column brackets were set as fixed geometry, and center holes were placed where the leadscrews would go. 
+The column brackets were set as fixed geometry, and center holes were placed where the leadscrews would go. The loading was centered around these holes. 
 
 <img width="1896" height="906" alt="initial load" src="https://github.com/user-attachments/assets/9516322e-2643-4331-a9b3-c35d871a64d9" />
 
