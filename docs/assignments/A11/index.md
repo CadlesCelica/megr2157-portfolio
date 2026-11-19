@@ -103,6 +103,46 @@ The stress plots appear to be inconclusive, but the displacement plots tell anot
 ### Final FEA attempt
 
 In a final attempt to gain usable data, FEA was conducted on the beam only. 
+The ends were set as fixed geometry, and the force and torque were applied around vertical walls of the clearance holes for the lead screw. 
+
+<img width="1690" height="748" alt="part load and fixture" src="https://github.com/user-attachments/assets/eea4604a-a9a6-4575-9abb-d870cb1e797c" />
+
+The mesh was set to coarse, and the simulation was run.
+
+Finally, the simulation resulted in usable results. 
+
+<img width="1343" height="604" alt="stress" src="https://github.com/user-attachments/assets/4cbf3bea-dc82-489a-87c7-e621e50480d8" />
+
+Stress. Peak 116 MPa
+
+<img width="921" height="785" alt="disp 4 1" src="https://github.com/user-attachments/assets/5d3477e2-33c1-4c7e-b224-1d8f16f87094" />
+
+Displacement. Peak 0.042 mm
+
+<img width="860" height="744" alt="fos 4 1" src="https://github.com/user-attachments/assets/7bfd108c-3cc7-4b0e-88b1-1f793c86c582" />
+
+Factor of Safety. Minimum 2.4
+
+All plots now show a gradient, and appear to show correct stresses and factors of safety. Now, the mesh was refined in order to gather more data, and to look for possible convergence. 
+
+According to Solidworks, for both the coarse and medium fine mesh, there were no distorted elements. This is significantly different than the previous attempts.
+
+<img width="1408" height="772" alt="stress 4 2" src="https://github.com/user-attachments/assets/624aaf54-e8e6-459a-bc28-549fecbecbe2" />
+
+Stress. Peak 120 MPa
+
+<img width="885" height="749" alt="displacement 4 2" src="https://github.com/user-attachments/assets/f9c8475b-8f38-46aa-b097-b790300c0b3e" />
+
+Displacement. Peak 0.042mm
+
+<img width="845" height="690" alt="fos 4 2" src="https://github.com/user-attachments/assets/dd7f1997-425c-49da-af73-44d4b0366bf7" />
+
+Factor of Safety. Minimum 2.3
+
+These values converge within 4.2% of one another, so further refinements are not necessary. 
+
+
+
 
 
 
