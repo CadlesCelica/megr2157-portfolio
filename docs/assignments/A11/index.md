@@ -141,6 +141,13 @@ Factor of Safety. Minimum 2.3
 
 These values converge within 4.2% of one another, so further refinements are not necessary. 
 
+Although the factor of safety is not 4, the beam itself appears to be adequate to support the loading scenario for the frame. There is not significant deflection, there appears to be no torsion, and the stress is less than half of the yield strength. If Solidworks could properly analyze the assembly, further modifications to the final product may not be necessary. Additionally, the areas experiencing the highest stress are the surfaces of the clearance hole, which in a real application, would not see the direct axial force or moment induced by the motors. 
+
+### Possible Refinements
+
+For refinements, the frame may not need double wide framing, and that would drastically cut down on both weight and material cost. 
+
+
 
 
 
