@@ -19,11 +19,11 @@ The top of the frame was analyzed to ensure adequate strength and minimal deflec
 The stall torque from the electric motors data sheet was used in order to design for the 'worst case' scenario.
 In an attempt to accurately conduct the FEA, the column brackets were mated to a double 40 series beam, as that is how our frame is assembled.
 
-<img width="1208" height="675" alt="assembly" src="https://github.com/user-attachments/assets/8823af9d-7c54-43ae-8eb3-ab57159320ff" />
+<img width="1513" height="1007" alt="initial model" src="https://github.com/user-attachments/assets/35e8d7fb-5593-4589-a701-0d44ed5259f7" />
 
 The column brackets were set as fixed geometry, and center holes were placed where the leadscrews would go. 
 
-<img width="1126" height="679" alt="load" src="https://github.com/user-attachments/assets/1d330bed-9bd8-4517-8daa-32d4957ec5e3" />
+<img width="1896" height="906" alt="initial load" src="https://github.com/user-attachments/assets/9516322e-2643-4331-a9b3-c35d871a64d9" />
 
 Then, the FEA was attempted. However, unlike previous assignments, the end results were not clear. The first pass was conducted on the coarse setting within Solidworks.
 
